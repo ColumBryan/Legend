@@ -507,14 +507,14 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="389142457491864">
+        <object-type name="Lock2" sid="389142457491864">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="4342987614449222">
-                    <behavior id="solid" />
-                </behavior-type>
                 <behavior-type name="Physics" sid="7828040270939073">
                     <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="4342987614449222">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -582,7 +582,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite4" sid="5772442374467309">
+        <object-type name="Button2" sid="5772442374467309">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="6015314315555069">
@@ -620,8 +620,10 @@
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
+        <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
