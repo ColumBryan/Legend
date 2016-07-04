@@ -542,7 +542,7 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4671750473896957" speed="0">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4671750473896957" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\sandMid.png">
                         <collision-poly>
                             <point x="0" y="0" />
@@ -550,6 +550,7 @@
                             <point x="0" y="1" />
                         </collision-poly>
                     </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\sandCenter.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -611,6 +612,31 @@
                             <point x="0.314286" y="0.685714" />
                             <point x="1" y="1" />
                             <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Door" sid="2142666311276126">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5232210106182841" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\door_openMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DoorTop" sid="7392056531102136">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1487468209974305" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\door_openTop.png">
+                        <collision-poly>
+                            <point x="0.428571" y="0.428571" />
+                            <point x="0.571429" y="0.428571" />
+                            <point x="0.828571" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.171429" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
