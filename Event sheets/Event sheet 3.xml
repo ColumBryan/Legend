@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="8842029408055147">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7323644384798334" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2192626512501842" type="Player">
+                    <param id="0" name="Animation">&quot;Walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="7793820020537964" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9576265434073687">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4416335202644736" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6550207605384463" type="Player">
+                    <param id="0" name="Animation">&quot;Walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="3102103995855912" type="Player">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9160493942912965">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="5597371453571245" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6066354432521813" type="Player">
+                    <param id="0" name="Animation">&quot;Jumping&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8069802100600528">
+            <conditions>
+                <condition id="3" name="On key released" sid="5278552979246988" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9584709021709318" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3090998667008976">
+            <conditions>
+                <condition id="3" name="On key released" sid="9483012079352989" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6441170553233499" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8785489362576648">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="2879797124865654" type="Player" />
+                <condition id="2" name="Is playing" sid="4327146433653827" type="Player">
+                    <param id="0" name="Animation">&quot;Jumping&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7978372295200536" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1998207764455039">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9637075422206516" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="12" name="Fall through" sid="9642333222278276" type="Player" />
+            </actions>
+        </event-block>
+        <event-block sid="866840209254755">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="548622327845493" type="Player">
+                    <param id="0" name="Object">Spikes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="1704546824212981" type="Player">
+                    <param id="0" name="X">2100</param>
+                    <param id="1" name="Y">315</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8896776995050056">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8026799210554297" type="Player">
+                    <param id="0" name="Object">Spikes2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="8145742144713682" type="Player">
+                    <param id="0" name="X">2100</param>
+                    <param id="1" name="Y">315</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5002501935192072">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9156131253091148" type="Player">
+                    <param id="0" name="Object">Spikes3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="7604672113333036" type="Player">
+                    <param id="0" name="X">2100</param>
+                    <param id="1" name="Y">315</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7755232439966204">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2628224960045972" type="Player">
+                    <param id="0" name="Object">Button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="21" name="Set immovable" sid="8537133269513465" type="Lock">
+                    <param id="0" name="Setting">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="6215247476791635" type="Button">
+                    <param id="0" name="Animation">&quot;Pressed&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="4161826104359766">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="8031213037710776" type="Lock">
+                            <param id="0" name="Unique ID">272</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="4460675438150751" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">5</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="583278365716087">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="2104452273422793" type="Lock">
+                            <param id="0" name="Unique ID">273</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="2174044280572272" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">100</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1713612532815061">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="8034999246632866" type="Lock">
+                            <param id="0" name="Unique ID">274</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="6062382093497615" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">-30</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8779118274614936">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="5448860944951043" type="Lock">
+                            <param id="0" name="Unique ID">275</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="9353522597158981" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">120</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3077504713470674">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="4738499322241071" type="Lock">
+                            <param id="0" name="Unique ID">276</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="1270300906878132" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">-60</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7457961664506974">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="8499028716424935" type="Lock">
+                            <param id="0" name="Unique ID">277</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="5755266926678708" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">150</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1998473099447277">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="5944502787818017" type="Lock">
+                            <param id="0" name="Unique ID">278</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="9122738642908964" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">-80</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8693387283208676">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="2313986925677453" type="Lock">
+                            <param id="0" name="Unique ID">279</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="5612180041159956" type="Lock">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">170</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9506384500072627">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2364926066516129" type="Player">
+                    <param id="0" name="Object">TrickButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="2714030824972776" type="System">
+                    <param id="0" name="Object to create">Spikes3</param>
+                    <param id="1" name="Layer">&quot;Obstacles&quot;</param>
+                    <param id="2" name="X">70</param>
+                    <param id="3" name="Y">525</param>
+                </action>
+                <action id="-3" name="Create object" sid="8445944995772947" type="System">
+                    <param id="0" name="Object to create">Spikes3</param>
+                    <param id="1" name="Layer">&quot;Obstacles&quot;</param>
+                    <param id="2" name="X">350</param>
+                    <param id="3" name="Y">525</param>
+                </action>
+                <action id="-3" name="Create object" sid="7907445945235208" type="System">
+                    <param id="0" name="Object to create">Spikes</param>
+                    <param id="1" name="Layer">&quot;Obstacles&quot;</param>
+                    <param id="2" name="X">70</param>
+                    <param id="3" name="Y">595</param>
+                </action>
+                <action id="-3" name="Create object" sid="407747135880226" type="System">
+                    <param id="0" name="Object to create">Spikes</param>
+                    <param id="1" name="Layer">&quot;Obstacles&quot;</param>
+                    <param id="2" name="X">350</param>
+                    <param id="3" name="Y">595</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="501000165382629">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4834991110786586" type="Player">
+                    <param id="0" name="Object">TrickButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7480392540368246" type="TrickButton">
+                    <param id="0" name="Animation">&quot;Pressed&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3348308806723618">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5631585012081865" type="TrickGround">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="12" name="Fall through" sid="1099404512405097" type="Player" />
+            </actions>
+        </event-block>
+        <event-block sid="4460593633121138">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2091402815748523" type="Player">
+                    <param id="0" name="Object">Button2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5207952634288592" type="Button2">
+                    <param id="0" name="Animation">&quot;Pressed&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="4994011227210248" type="Lock2">
+                    <param id="0" name="Setting">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="1619511298375798">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="2964792504749691" type="Lock2">
+                            <param id="0" name="Unique ID">281</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="1257462991451712" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">5</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3696003005638674">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="8227913994014723" type="Lock2">
+                            <param id="0" name="Unique ID">282</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="6297026200013852" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">100</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="229785825650185">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="3585794519373883" type="Lock2">
+                            <param id="0" name="Unique ID">283</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="6767268657715021" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">-30</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8674378190349467">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="3748785286176417" type="Lock2">
+                            <param id="0" name="Unique ID">284</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="7483414561824937" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">120</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4373532842989902">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="9782416113777573" type="Lock2">
+                            <param id="0" name="Unique ID">285</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="4422512363261732" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">-60</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7853336126735938">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="5678906292479201" type="Lock2">
+                            <param id="0" name="Unique ID">286</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="1482557529833501" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">150</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1529924966263762">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="517524778660044" type="Lock2">
+                            <param id="0" name="Unique ID">287</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="9184014771521891" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">-80</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9655802511591135">
+                    <conditions>
+                        <condition id="-13" name="Is between angles" sid="5780073021486004" type="Lock2">
+                            <param id="0" name="First angle">121</param>
+                            <param id="1" name="Second angle">45</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="1022026295499185" type="Lock2">
+                            <param id="0" name="Impulse">40</param>
+                            <param id="1" name="Angle">170</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="8061140553200524">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8706450447231498" type="Spider">
+                    <param id="0" name="Object">Box2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="3906102584070207" type="Spider">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1664139582455922">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5571973659134137" type="Spider">
+                    <param id="0" name="Object">Box</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="1768167986172704" type="Spider">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6796220741071673">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2200243728530917" type="Player">
+                    <param id="0" name="Object">Spider</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="4580044494605174" type="Player">
+                    <param id="0" name="X">2100</param>
+                    <param id="1" name="Y">315</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
