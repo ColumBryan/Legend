@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="3387704220509408">
+            <conditions>
+                <condition id="2" name="Key is down" sid="3194946424629192" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="749382999106753" type="Player">
+                    <param id="0" name="Animation">&quot;Walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="9666746892769974" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3991732001320432">
+            <conditions>
+                <condition id="2" name="Key is down" sid="8284584968314317" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3343141368797886" type="Player">
+                    <param id="0" name="Animation">&quot;Walking&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="5004989393680886" type="Player">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4852362531267926">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="8991450245106813" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9420517473411243" type="Player">
+                    <param id="0" name="Animation">&quot;Jumping&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8614088461529639">
+            <conditions>
+                <condition id="3" name="On key released" sid="57462005945803" type="Keyboard">
+                    <param id="0" name="Key">39 (Right arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9316285536667124" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4939805611669323">
+            <conditions>
+                <condition id="3" name="On key released" sid="6900393930989895" type="Keyboard">
+                    <param id="0" name="Key">37 (Left arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="887123696050942" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8908318564068022">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="5058631761658844" type="Player" />
+                <condition id="2" name="Is playing" sid="7481537583847755" type="Player">
+                    <param id="0" name="Animation">&quot;Jumping&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3849630845201703" type="Player">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4313712686359419">
+            <conditions>
+                <condition id="2" name="Key is down" sid="1249150630186971" type="Keyboard">
+                    <param id="0" name="Key">40 (Down arrow)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="12" name="Fall through" sid="1407991859032238" type="Player" />
+            </actions>
+        </event-block>
+        <event-block sid="9697699086300473">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2777542809767699" type="Player">
+                    <param id="0" name="Object">Spikes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="7263834637679857" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="566285847645508">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3252454535264978" type="Spider">
+                    <param id="0" name="Object">Box2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="969037516533537" type="Spider">
+                    <param id="0" name="Angle">180</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7926096490578505">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4098303440177398" type="Spider">
+                    <param id="0" name="Object">Box</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="7547184358412978" type="Spider">
+                    <param id="0" name="Angle">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7119227894609087">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="165415981924384" type="Player">
+                    <param id="0" name="Object">Spider</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="7437267926457819" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="135889641157389">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="841296451826318" type="Player">
+                    <param id="0" name="Object">Button</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7126892578227474" type="Button">
+                    <param id="0" name="Animation">&quot;Pressed&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="8736729248784173" type="Box" />
+            </actions>
+        </event-block>
+        <event-block sid="2906821897916835">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7799210174417887" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="4162995841640886" type="BigSpider">
+                    <param id="0" name="Angle">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1633047492858377">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6212244906602861" type="BigSpider">
+                    <param id="0" name="Object">Box2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="1088203318448351" type="BigSpider">
+                    <param id="0" name="Angle">90</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9339963602218822">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9457751109103075" type="BigSpider">
+                    <param id="0" name="Object">Box</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="3795925044164053" type="BigSpider">
+                    <param id="0" name="Angle">270</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3373919462908137">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3775082845827909" type="Player">
+                    <param id="0" name="Object">BigSpider</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="5065306396825695" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="9168094844815994">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2102377838612035" type="Player">
+                    <param id="0" name="Object">Door</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9057029293275151" type="System">
+                    <param id="0" name="Layout">Layout 3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
