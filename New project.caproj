@@ -12,9 +12,11 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
@@ -28,7 +30,7 @@
     </configurations>
     <window-size>
         <width>854</width>
-        <height>480</height>
+        <height>1000</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -613,6 +615,230 @@
                             <point x="0" y="1" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="5054791506560639">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1825483160349542" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Legend\Legend\airport.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="6579182757626374">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7761785506262516" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Legend\Legend\airport2.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="5795113132575229">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6845475517577342" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Car" sid="8508962936473275">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="8781270205501901">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="7546256228339692">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="4478898670224881">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2908573143734203" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Legend\Legend\New Piskel (2).png">
+                        <collision-poly>
+                            <point x="0.28125" y="0.28125" />
+                            <point x="0.5" y="0.28125" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.6875" y="0.5" />
+                            <point x="0.46875" y="0.46875" />
+                            <point x="0.53125" y="0.46875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="6660860240098059" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NightSky" sid="288333685412774">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\construct 2\Sprites\Space shooter\Backgrounds\black.png" />
+        </object-type>
+        <object-type name="LightPosts" sid="1487050497590701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550028121395381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501887" original-source="D:\Legend\Legend\images.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Road" sid="5956597337979897">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7247204449006673">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2742593312329917" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castle.png">
+                        <collision-poly>
+                            <point x="0.0285714" y="0.0285714" />
+                            <point x="0.5" y="0" />
+                            <point x="0.971429" y="0.0285714" />
+                            <point x="1" y="0.5" />
+                            <point x="0.971429" y="0.971429" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0285714" y="0.971429" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RoadSpikes" sid="3533532943752176">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6432567217311695" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Items\spikes.png">
+                        <collision-poly>
+                            <point x="0.757143" y="0.757143" />
+                            <point x="0.5" y="0.528571" />
+                            <point x="0.242857" y="0.757143" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="5540091302544489">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TutorialButton" sid="7661390658647514">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3621542615396805">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9988578192626216" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Items\buttonYellow.png">
+                        <collision-poly>
+                            <point x="0.371429" y="0.371429" />
+                            <point x="0.5" y="0.342857" />
+                            <point x="0.628571" y="0.371429" />
+                            <point x="0.785714" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.214286" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Pressed" pingpong="0" repeatcount="1" repeatto="0" sid="7529635409720037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Items\buttonYellow_pressed.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Road2" sid="186057751618397">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9445641200800434">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1578354883548624" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castle.png">
+                        <collision-poly>
+                            <point x="0.0285714" y="0.0285714" />
+                            <point x="0.5" y="0" />
+                            <point x="0.971429" y="0.0285714" />
+                            <point x="1" y="0.5" />
+                            <point x="0.971429" y="0.971429" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0285714" y="0.971429" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NIghtSkyStars" sid="5819832127764616">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4353846258657319" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Items\star.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.4" />
+                            <point x="0.5" y="0.285714" />
+                            <point x="0.6" y="0.4" />
+                            <point x="0.7" y="0.5" />
+                            <point x="0.657143" y="0.657143" />
+                            <point x="0.5" y="0.685714" />
+                            <point x="0.342857" y="0.657143" />
+                            <point x="0.3" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="3968206611305438">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite12" sid="8896648044632183">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2067256861024461" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Items\star.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.4" />
+                            <point x="0.5" y="0.285714" />
+                            <point x="0.6" y="0.4" />
+                            <point x="0.7" y="0.5" />
+                            <point x="0.657143" y="0.657143" />
+                            <point x="0.5" y="0.685714" />
+                            <point x="0.342857" y="0.657143" />
+                            <point x="0.3" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BottomCobble" sid="2820282187389644">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1986395799451939" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="9360635325263916">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="5898131349457822">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4667253009909915" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
                 </animation>
             </animation-folder>
         </object-type>
