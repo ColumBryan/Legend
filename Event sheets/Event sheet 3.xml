@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 3</name>
     <events>
+        <variable constant="0" name="Restarted" sid="4343670783740101" static="0" type="number">0</variable>
         <event-block sid="8842029408055147">
             <conditions>
                 <condition id="2" name="Key is down" sid="7323644384798334" type="Keyboard">
@@ -103,10 +104,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="1704546824212981" type="Player">
-                    <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                <action id="-9" name="Set value" sid="1704546824212981" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="2910104018897822" type="System" />
             </actions>
         </event-block>
         <event-block sid="8896776995050056">
@@ -116,10 +118,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="8145742144713682" type="Player">
-                    <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                <action id="-9" name="Set value" sid="8145742144713682" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="699982377272061" type="System" />
             </actions>
         </event-block>
         <event-block sid="5002501935192072">
@@ -129,10 +132,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="7604672113333036" type="Player">
-                    <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                <action id="-9" name="Set value" sid="7604672113333036" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="756352261716296" type="System" />
             </actions>
         </event-block>
         <event-block sid="7755232439966204">
@@ -483,9 +487,26 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="4580044494605174" type="Player">
+                <action id="-9" name="Set value" sid="4580044494605174" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="5393578295772183" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="7359854642938429">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4329401550481538" type="System" />
+                <condition id="-14" name="Compare variable" sid="8824080858296956" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="4385234113647255" type="Player">
                     <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                    <param id="1" name="Y">350</param>
                 </action>
             </actions>
         </event-block>
