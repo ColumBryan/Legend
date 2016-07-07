@@ -210,5 +210,25 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="6561148260244101">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1220110595379516" type="Player">
+                    <param id="0" name="Object">Spikes4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="6711605652246671" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="3234886848738155">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8684496817622375" type="Player">
+                    <param id="0" name="Object">Spikes2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="81352520150195" type="System" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

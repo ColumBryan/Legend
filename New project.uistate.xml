@@ -10,14 +10,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="2">Level 2</layout>
-        <layout order="4">Level 3</layout>
-        <layout active="1" order="6">Level 1</layout>
-        <layout order="0">Tutorial</layout>
-        <event-sheet order="1">Tutorial ES</event-sheet>
-        <event-sheet order="3">Level 2 ES</event-sheet>
-        <event-sheet order="5">Level 3 ES</event-sheet>
+        <layout active="1" order="0">Title</layout>
+        <layout order="2">Story</layout>
+        <layout order="4">Story 2</layout>
+        <layout order="6">Tutorial</layout>
+        <layout order="8">Level 1</layout>
+        <layout order="10">Level 2</layout>
+        <layout order="12">Level 3</layout>
+        <event-sheet order="1">Title Event Sheet</event-sheet>
+        <event-sheet order="3">Story1Eventsheet</event-sheet>
+        <event-sheet order="5">Tutorial ES</event-sheet>
         <event-sheet order="7">Level 1 ES</event-sheet>
+        <event-sheet order="9">Level 2 ES</event-sheet>
+        <event-sheet order="11">Level 3 ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,10 +32,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
@@ -47,26 +52,27 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TrickGround/" />
         <folder expanded="1" path="animation-folder/HalfPyramid/" />
         <folder expanded="1" path="animation-folder/Button2/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/Car/" />
         <folder expanded="1" path="animation-folder/LightPosts/" />
-        <folder expanded="1" path="animation-folder/Road/" />
         <folder expanded="1" path="animation-folder/Door/" />
         <folder expanded="1" path="animation-folder/DoorTop/" />
         <folder expanded="1" path="animation-folder/Spider/" />
         <folder expanded="1" path="animation-folder/Box2/" />
-        <folder expanded="1" path="animation-folder/RoadSpikes/" />
-        <folder expanded="1" path="animation-folder/TutorialButton/" />
+        <folder expanded="1" path="animation-folder/Spikes4/" />
         <folder expanded="1" path="animation-folder/Road2/" />
         <folder expanded="1" path="animation-folder/Box/" />
-        <folder expanded="1" path="animation-folder/NIghtSkyStars/" />
-        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Stars/" />
         <folder expanded="1" path="animation-folder/BigSpider/" />
-        <folder expanded="1" path="animation-folder/BottomCobble/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/FallRoad/" />
         <folder expanded="1" path="animation-folder/Pyramid/" />
+        <folder expanded="1" path="animation-folder/Road/" />
+        <folder expanded="1" path="animation-folder/TitleBackground/" />
+        <folder expanded="1" path="animation-folder/TitleHeading/" />
         <folder expanded="1" path="animation-folder/AirPlane/" />
+        <folder expanded="1" path="animation-folder/TitlePlayButton/" />
+        <folder expanded="1" path="animation-folder/TitleTutorialButton/" />
+        <folder expanded="1" path="animation-folder/Story1Table/" />
+        <folder expanded="1" path="animation-folder/Story1Phone/" />
         <folder expanded="1" path="animation-folder/Plane/" />
         <folder expanded="1" path="animation-folder/AirportFloor/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
