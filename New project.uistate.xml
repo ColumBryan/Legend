@@ -27,7 +27,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
-        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1" />
@@ -52,33 +52,30 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/TrickGround/" />
         <folder expanded="1" path="animation-folder/HalfPyramid/" />
         <folder expanded="1" path="animation-folder/Button2/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/Sprite2/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/Car/" />
         <folder expanded="1" path="animation-folder/LightPosts/" />
-        <folder expanded="1" path="animation-folder/Road/" />
         <folder expanded="1" path="animation-folder/Door/" />
         <folder expanded="1" path="animation-folder/DoorTop/" />
         <folder expanded="1" path="animation-folder/Spider/" />
         <folder expanded="1" path="animation-folder/Box2/" />
-        <folder expanded="1" path="animation-folder/RoadSpikes/" />
-        <folder expanded="1" path="animation-folder/TutorialButton/" />
+        <folder expanded="1" path="animation-folder/Spikes4/" />
         <folder expanded="1" path="animation-folder/Road2/" />
         <folder expanded="1" path="animation-folder/Box/" />
-        <folder expanded="1" path="animation-folder/NIghtSkyStars/" />
-        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/Stars/" />
         <folder expanded="1" path="animation-folder/BigSpider/" />
-        <folder expanded="1" path="animation-folder/BottomCobble/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/FallRoad/" />
         <folder expanded="1" path="animation-folder/Pyramid/" />
+        <folder expanded="1" path="animation-folder/Road/" />
         <folder expanded="1" path="animation-folder/TitleBackground/" />
         <folder expanded="1" path="animation-folder/TitleHeading/" />
-        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/AirPlane/" />
         <folder expanded="1" path="animation-folder/TitlePlayButton/" />
         <folder expanded="1" path="animation-folder/TitleTutorialButton/" />
         <folder expanded="1" path="animation-folder/Story1Table/" />
         <folder expanded="1" path="animation-folder/Story1Phone/" />
         <folder expanded="1" path="animation-folder/Plane/" />
+        <folder expanded="1" path="animation-folder/AirportFloor/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
     </folders-expanded>
 </c2uistate>

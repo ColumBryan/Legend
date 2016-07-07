@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level 3 ES</name>
     <events>
+        <variable constant="0" name="Restarted" sid="4343670783740101" static="0" type="number">0</variable>
         <event-block sid="8842029408055147">
             <conditions>
                 <condition id="2" name="Key is down" sid="7323644384798334" type="Keyboard">
@@ -103,10 +104,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="1704546824212981" type="Player">
-                    <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                <action id="-9" name="Set value" sid="1704546824212981" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="2910104018897822" type="System" />
             </actions>
         </event-block>
         <event-block sid="8896776995050056">
@@ -116,10 +118,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="8145742144713682" type="Player">
-                    <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                <action id="-9" name="Set value" sid="8145742144713682" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="699982377272061" type="System" />
             </actions>
         </event-block>
         <event-block sid="5002501935192072">
@@ -129,10 +132,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="7604672113333036" type="Player">
-                    <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                <action id="-9" name="Set value" sid="7604672113333036" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="756352261716296" type="System" />
             </actions>
         </event-block>
         <event-block sid="7755232439966204">
@@ -154,7 +158,7 @@
                 <event-block sid="4161826104359766">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="8031213037710776" type="Lock">
-                            <param id="0" name="Unique ID">272</param>
+                            <param id="0" name="Unique ID">1757</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -168,7 +172,7 @@
                 <event-block sid="583278365716087">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="2104452273422793" type="Lock">
-                            <param id="0" name="Unique ID">273</param>
+                            <param id="0" name="Unique ID">1758</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -182,7 +186,7 @@
                 <event-block sid="1713612532815061">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="8034999246632866" type="Lock">
-                            <param id="0" name="Unique ID">274</param>
+                            <param id="0" name="Unique ID">1759</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -196,7 +200,7 @@
                 <event-block sid="8779118274614936">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="5448860944951043" type="Lock">
-                            <param id="0" name="Unique ID">275</param>
+                            <param id="0" name="Unique ID">1760</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -210,7 +214,7 @@
                 <event-block sid="3077504713470674">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="4738499322241071" type="Lock">
-                            <param id="0" name="Unique ID">276</param>
+                            <param id="0" name="Unique ID">1761</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -224,7 +228,7 @@
                 <event-block sid="7457961664506974">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="8499028716424935" type="Lock">
-                            <param id="0" name="Unique ID">277</param>
+                            <param id="0" name="Unique ID">1762</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -238,7 +242,7 @@
                 <event-block sid="1998473099447277">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="5944502787818017" type="Lock">
-                            <param id="0" name="Unique ID">278</param>
+                            <param id="0" name="Unique ID">1763</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -252,7 +256,7 @@
                 <event-block sid="8693387283208676">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="2313986925677453" type="Lock">
-                            <param id="0" name="Unique ID">279</param>
+                            <param id="0" name="Unique ID">1764</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -340,7 +344,7 @@
                 <event-block sid="1619511298375798">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="2964792504749691" type="Lock2">
-                            <param id="0" name="Unique ID">281</param>
+                            <param id="0" name="Unique ID">1766</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -354,7 +358,7 @@
                 <event-block sid="3696003005638674">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="8227913994014723" type="Lock2">
-                            <param id="0" name="Unique ID">282</param>
+                            <param id="0" name="Unique ID">1767</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -368,7 +372,7 @@
                 <event-block sid="229785825650185">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="3585794519373883" type="Lock2">
-                            <param id="0" name="Unique ID">283</param>
+                            <param id="0" name="Unique ID">1768</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -382,7 +386,7 @@
                 <event-block sid="8674378190349467">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="3748785286176417" type="Lock2">
-                            <param id="0" name="Unique ID">284</param>
+                            <param id="0" name="Unique ID">1769</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -396,7 +400,7 @@
                 <event-block sid="4373532842989902">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="9782416113777573" type="Lock2">
-                            <param id="0" name="Unique ID">285</param>
+                            <param id="0" name="Unique ID">1770</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -410,7 +414,7 @@
                 <event-block sid="7853336126735938">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="5678906292479201" type="Lock2">
-                            <param id="0" name="Unique ID">286</param>
+                            <param id="0" name="Unique ID">1771</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -424,7 +428,7 @@
                 <event-block sid="1529924966263762">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="517524778660044" type="Lock2">
-                            <param id="0" name="Unique ID">287</param>
+                            <param id="0" name="Unique ID">1772</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -437,9 +441,8 @@
                 </event-block>
                 <event-block sid="9655802511591135">
                     <conditions>
-                        <condition id="-13" name="Is between angles" sid="5780073021486004" type="Lock2">
-                            <param id="0" name="First angle">121</param>
-                            <param id="1" name="Second angle">45</param>
+                        <condition id="-14" name="Pick by unique ID" sid="5780073021486004" type="Lock2">
+                            <param id="0" name="Unique ID">1784</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -483,9 +486,26 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="4580044494605174" type="Player">
+                <action id="-9" name="Set value" sid="4580044494605174" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="5393578295772183" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="7359854642938429">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4329401550481538" type="System" />
+                <condition id="-14" name="Compare variable" sid="8824080858296956" type="System">
+                    <param id="0" name="Variable">Restarted</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="4385234113647255" type="Player">
                     <param id="0" name="X">2100</param>
-                    <param id="1" name="Y">315</param>
+                    <param id="1" name="Y">350</param>
                 </action>
             </actions>
         </event-block>
