@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Title Event Sheet</name>
+    <name>Title ES</name>
     <events>
         <event-block sid="6420670085894512">
             <conditions>
@@ -35,7 +35,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="3869136899233304" type="System">
-                    <param id="0" name="Layout">Level 1</param>
+                    <param id="0" name="Layout">Tutorial</param>
                 </action>
             </actions>
         </event-block>
@@ -71,7 +71,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="4958176292259805" type="System">
-                    <param id="0" name="Layout">Story</param>
+                    <param id="0" name="Layout">Story 1</param>
                 </action>
             </actions>
         </event-block>

@@ -1026,7 +1026,7 @@
         <object-type name="Touch" sid="9074255177799656">
             <plugin id="Touch" />
         </object-type>
-        <object-type name="Convopt2" sid="8238719782917277">
+        <object-type name="ConvoPt2" sid="8238719782917277">
             <plugin id="Text" />
         </object-type>
         <object-type name="AirportFloor" sid="2719440693026866">
@@ -1075,11 +1075,47 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ConvoPt3" sid="8300004784834924">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt4" sid="8271282726237073">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt5" sid="8381716191078085">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt6" sid="2055348735341244">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt7" sid="6503069125372795">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt8" sid="9444066570947541">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt9" sid="6666244646033198">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt10" sid="5845634080489659">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt11" sid="6480481752009318">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt12" sid="3397951145582207">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoPt13" sid="1606156464514191">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ConvoGuide" sid="7595372205392348">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Title.xml</layout>
-        <layout>Story.xml</layout>
+        <layout>Story 1.xml</layout>
         <layout>Story 2.xml</layout>
         <layout>Tutorial.xml</layout>
         <layout>Level 1.xml</layout>
@@ -1087,18 +1123,18 @@
         <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Title Event Sheet.xml</event-sheet>
-        <event-sheet>Story1Eventsheet.xml</event-sheet>
-        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>Title ES.xml</event-sheet>
+        <event-sheet>Story1 ES.xml</event-sheet>
+        <event-sheet>Story2 ES.xml</event-sheet>
         <event-sheet>Tutorial ES.xml</event-sheet>
         <event-sheet>Level 1 ES.xml</event-sheet>
         <event-sheet>Level 2 ES.xml</event-sheet>
         <event-sheet>Level 3 ES.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="1080" />
-        <global-instance type="Mouse" uid="1081" />
-        <global-instance type="Audio" uid="1082">
+        <global-instance type="Keyboard" uid="1084" />
+        <global-instance type="Mouse" uid="1085" />
+        <global-instance type="Audio" uid="1086">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -1112,7 +1148,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Touch" uid="1832">
+        <global-instance type="Touch" uid="1087">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
@@ -1122,7 +1158,10 @@
         <file name="Phone Ringing-SoundBible.com-1579776269.m4a" />
         <file name="Phone Ringing-SoundBible.com-1579776269.ogg" />
     </sounds-folder>
-    <music-folder />
+    <music-folder>
+        <file name="mary.m4a" />
+        <file name="mary.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />
