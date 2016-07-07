@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -900,20 +900,59 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite4" sid="3315152512220398">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5518948185510229" speed="5">
+                    <frame duration="1" hotspotX="0.643863" hotspotY="1.53698" original-source="D:\Legend\Legend\Plane.png">
+                        <collision-poly>
+                            <point x="0.103018" y="0.245917" />
+                            <point x="0.643863" y="0.399616" />
+                            <point x="0.244668" y="0.584054" />
+                            <point x="0.643863" y="0.584054" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Plane" sid="9113616076449569">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="4738163010879232">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8786157696157098" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Legend\Legend\Plane.png">
+                        <collision-poly>
+                            <point x="0.08" y="0.08" />
+                            <point x="0.5" y="0.13" />
+                            <point x="0.19" y="0.19" />
+                            <point x="0.5" y="0.19" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Tutorial.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
+        <layout>Story.xml</layout>
+        <layout>Story 2.xml</layout>
+        <layout>Level 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level 3 ES.xml</event-sheet>
         <event-sheet>Tutorial ES.xml</event-sheet>
         <event-sheet>Level 2 ES.xml</event-sheet>
+        <event-sheet>Level 1 ES.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="1828" />
+        <global-instance type="Keyboard" uid="1820" />
     </global-instances>
     <sounds-folder />
     <music-folder />
