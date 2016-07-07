@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2uistate>
     <!--This is a UI state file - its content describes the user interface settings when the project was last open.
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
@@ -10,12 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout 1</layout>
-        <layout order="4">Layout 3</layout>
-        <layout active="1" order="2">Layout 2</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
-        <event-sheet order="5">Event sheet 3</event-sheet>
-        <event-sheet order="3">Event sheet 2</event-sheet>
+        <layout order="4">Layout 1</layout>
+        <layout order="5">Layout 2</layout>
+        <layout order="7">Layout 3</layout>
+        <layout order="2">Story</layout>
+        <layout order="3">Story 2</layout>
+        <layout order="0">Title</layout>
+        <event-sheet order="8">Event sheet 1</event-sheet>
+        <event-sheet order="6">Event sheet 2</event-sheet>
+        <event-sheet order="9">Event sheet 3</event-sheet>
+        <event-sheet active="1" order="1">Title Event Sheet</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -25,10 +29,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
@@ -51,19 +55,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Car/" />
         <folder expanded="1" path="animation-folder/LightPosts/" />
         <folder expanded="1" path="animation-folder/Road/" />
-        <folder expanded="1" path="animation-folder/RoadSpikes/" />
-        <folder expanded="1" path="animation-folder/TutorialButton/" />
-        <folder expanded="1" path="animation-folder/Road2/" />
-        <folder expanded="1" path="animation-folder/NIghtSkyStars/" />
-        <folder expanded="1" path="animation-folder/Sprite12/" />
-        <folder expanded="1" path="animation-folder/BottomCobble/" />
-        <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Door/" />
         <folder expanded="1" path="animation-folder/DoorTop/" />
         <folder expanded="1" path="animation-folder/Spider/" />
         <folder expanded="1" path="animation-folder/Box2/" />
+        <folder expanded="1" path="animation-folder/RoadSpikes/" />
+        <folder expanded="1" path="animation-folder/TutorialButton/" />
+        <folder expanded="1" path="animation-folder/Road2/" />
         <folder expanded="1" path="animation-folder/Box/" />
+        <folder expanded="1" path="animation-folder/NIghtSkyStars/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
         <folder expanded="1" path="animation-folder/BigSpider/" />
+        <folder expanded="1" path="animation-folder/BottomCobble/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Pyramid/" />
+        <folder expanded="1" path="animation-folder/TitleBackground/" />
+        <folder expanded="1" path="animation-folder/TitleHeading/" />
+        <folder expanded="1" path="animation-folder/TitlePlayButton/" />
+        <folder expanded="1" path="animation-folder/TitleTutorialButton/" />
     </folders-expanded>
 </c2uistate>
