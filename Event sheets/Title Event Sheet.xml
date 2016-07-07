@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Title Event Sheet</name>
+    <events>
+        <event-block sid="6420670085894512">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="204194371894792" type="Mouse">
+                    <param id="0" name="Object">TitleTutorialButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="7704041373162699" type="TitleTutorialButton">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7774662600102113">
+            <conditions>
+                <condition id="-22" name="Else" sid="8608723806710817" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="776306482239675" type="TitleTutorialButton">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7585884726751597">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="9635621981235278" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">TitleTutorialButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3869136899233304" type="System">
+                    <param id="0" name="Layout">Level 1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5958938498257735">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="3289353944147139" type="Mouse">
+                    <param id="0" name="Object">TitlePlayButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="369154665067114" type="TitlePlayButton">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1786303083404725">
+            <conditions>
+                <condition id="-22" name="Else" sid="386871062347235" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="8345489524527986" type="TitlePlayButton">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4294968878784152">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1481262744973179" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">TitlePlayButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4958176292259805" type="System">
+                    <param id="0" name="Layout">Story</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

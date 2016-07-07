@@ -10,7 +10,9 @@
     <unique-id>1gtsax9jhl57s</unique-id>
     <saved-with-version>22700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -30,8 +32,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>870</width>
+        <height>630</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -900,6 +902,33 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TitleBackground" sid="7533810145103535">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612702211720218" speed="5">
+                    <frame duration="1" hotspotX="0.50057" hotspotY="0.500782" original-source="D:\FinalProject\Legend\Title background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TitleHeading" sid="8683496597609927">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8898225540225286" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\FinalProject\Legend\title text.png">
+                        <collision-poly>
+                            <point x="0.102778" y="0.154167" />
+                            <point x="0.5" y="0.18125" />
+                            <point x="0.690278" y="0.464583" />
+                            <point x="0.970833" y="0.5" />
+                            <point x="0.686111" y="0.529167" />
+                            <point x="0.5" y="0.479167" />
+                            <point x="0.297222" y="0.554167" />
+                            <point x="0.0541667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
         <object-type name="Sprite4" sid="3315152512220398">
             <plugin id="Sprite" />
             <animation-folder>
@@ -914,6 +943,61 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TitlePlayButton" sid="8193082346474026">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2987762557726034" speed="0">
+                    <frame duration="1" hotspotX="0.56044" hotspotY="0.490909" original-source="D:\FinalProject\Legend\title text.png">
+                        <collision-poly>
+                            <point x="1" y="1" />
+                            <point x="1" y="0" />
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="0" hotspotX="0.554348" hotspotY="0.584615">
+                        <collision-poly>
+                            <point x="0" y="1" />
+                            <point x="1" y="1" />
+                            <point x="1" y="0.153846" />
+                            <point x="0" y="0.153846" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TitleTutorialButton" sid="7286727105482658">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9988409446661662" speed="0">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.613636" original-source="D:\FinalProject\Legend\title text.png" />
+                    <frame duration="1" hotspotX="0.514451" hotspotY="0.642857" original-source="D:\FinalProject\Legend\title text.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="5754566717700987">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Story1Table" sid="1766186599925869">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8904061724074139" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Marist User\Downloads\table.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Story1Phone" sid="3471645976338738">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3175741965365088" speed="0">
+                    <frame duration="1" hotspotX="0.57874" hotspotY="0.685897" original-source="C:\Users\Marist User\Downloads\New Piskel (2).png" />
+                    <frame duration="1" hotspotX="0.685811" hotspotY="0.842593" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="6691360114306421">
+            <plugin id="Audio" />
         </object-type>
         <object-type name="Plane" sid="9113616076449569">
             <plugin id="Sprite" />
@@ -938,23 +1022,45 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Tutorial.xml</layout>
-        <layout>Level 2.xml</layout>
-        <layout>Level 3.xml</layout>
+        <layout>Title.xml</layout>
         <layout>Story.xml</layout>
         <layout>Story 2.xml</layout>
+        <layout>Tutorial.xml</layout>
         <layout>Level 1.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Level 3.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Level 3 ES.xml</event-sheet>
+        <event-sheet>Title Event Sheet.xml</event-sheet>
+        <event-sheet>Story1Eventsheet.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
         <event-sheet>Tutorial ES.xml</event-sheet>
-        <event-sheet>Level 2 ES.xml</event-sheet>
         <event-sheet>Level 1 ES.xml</event-sheet>
+        <event-sheet>Level 2 ES.xml</event-sheet>
+        <event-sheet>Level 3 ES.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1820" />
+        <global-instance type="Mouse" uid="1825" />
+        <global-instance type="Audio" uid="1828">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="Phone Ringing-SoundBible.com-1579776269.m4a" />
+        <file name="Phone Ringing-SoundBible.com-1579776269.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
