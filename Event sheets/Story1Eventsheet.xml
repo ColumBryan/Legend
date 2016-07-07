@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Story1Eventsheet</name>
+    <events>
+        <event-block sid="7366836079416261">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7516688395890294" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Story1Phone</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3712955631433066" type="Story1Phone">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="6" name="Stop" sid="4621725367870051" type="Audio">
+                    <param id="0" name="Tag">&quot;PhoneRing&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3986658136867785">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="9432888225530049" type="System">
+                    <param id="0" name="Interval (seconds)">3</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="8150752184181117" type="Story1Phone">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="2374996372026843" type="Audio">
+                    <param id="0" name="Audio file">Phone Ringing-SoundBible.com-1579776269</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;phoneRing&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
