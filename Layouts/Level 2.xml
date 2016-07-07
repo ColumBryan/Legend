@@ -2,7 +2,7 @@
 <c2layout>
     <name>Level 2</name>
     <sid>1728215908796145</sid>
-    <event-sheet>Event sheet 2</event-sheet>
+    <event-sheet>Level 2 ES</event-sheet>
     <size>
         <width>7000</width>
         <height>1000</height>
@@ -68,6 +68,40 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.657957256</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Plane" uid="1822">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Bullet">
+                            <properties>
+                                <speed>400</speed>
+                                <acceleration>0</acceleration>
+                                <gravity>0</gravity>
+                                <bounce-off-solids>No</bounce-off-solids>
+                                <set-angle>Yes</set-angle>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>385</x>
+                        <y>560</y>
+                        <z>0</z>
+                        <width>742.462097168</width>
+                        <height>783.710021973</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.032877818</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -10843,7 +10877,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3080</x>
-                        <y>-35</y>
+                        <y>-280</y>
                         <z>0</z>
                         <width>1119.45300293</width>
                         <height>1119.45300293</height>

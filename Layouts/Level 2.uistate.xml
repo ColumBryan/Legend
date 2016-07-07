@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2uistate>
     <!--This is a UI state file - its content describes the user interface settings when the layout was last open.
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
@@ -23,9 +23,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="HUD" />
+    <active-layer name="Backgound" />
     <layers>
-        <layer locked="1" name="Backgound" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Backgound" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Obstacles" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Main" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Enemies" parallax-in-editor="0" visible="1" />
