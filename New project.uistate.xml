@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2uistate>
     <!--This is a UI state file - its content describes the user interface settings when the project was last open.
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
@@ -10,7 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Title</layout>
+        <layout order="0">Title</layout>
         <layout order="2">Story</layout>
         <layout order="4">Story 2</layout>
         <layout order="6">Tutorial</layout>
@@ -18,7 +18,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="10">Level 2</layout>
         <layout order="12">Level 3</layout>
         <event-sheet order="1">Title Event Sheet</event-sheet>
-        <event-sheet order="3">Story1Eventsheet</event-sheet>
+        <event-sheet active="1" order="3">Story1Eventsheet</event-sheet>
         <event-sheet order="5">Tutorial ES</event-sheet>
         <event-sheet order="7">Level 1 ES</event-sheet>
         <event-sheet order="9">Level 2 ES</event-sheet>
@@ -32,7 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
@@ -74,11 +74,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Pyramid/" />
         <folder expanded="1" path="animation-folder/TitleBackground/" />
         <folder expanded="1" path="animation-folder/TitleHeading/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/TitlePlayButton/" />
         <folder expanded="1" path="animation-folder/TitleTutorialButton/" />
         <folder expanded="1" path="animation-folder/Story1Table/" />
         <folder expanded="1" path="animation-folder/Story1Phone/" />
-        <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/Plane/" />
     </folders-expanded>
 </c2uistate>

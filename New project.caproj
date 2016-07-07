@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -16,6 +16,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
@@ -1101,6 +1102,15 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="ConvoPt1" sid="5577545139671946">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="9074255177799656">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Convopt2" sid="8238719782917277">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1122,8 +1132,8 @@
         <event-sheet>Level 3 ES.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="1820" />
-        <global-instance type="Mouse" uid="1825" />
+        <global-instance type="Keyboard" uid="1826" />
+        <global-instance type="Mouse" uid="1827" />
         <global-instance type="Audio" uid="1828">
             <properties>
                 <timescale-audio>Off</timescale-audio>
@@ -1136,6 +1146,11 @@
                 <reference-distance>600</reference-distance>
                 <maximum-distance>10000</maximum-distance>
                 <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="1832">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
     </global-instances>
