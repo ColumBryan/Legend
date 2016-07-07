@@ -29,11 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Background2" uid="1546">
-=======
-                <instance type="Background2" uid="1538">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -53,11 +49,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Background" uid="1547">
-=======
-                <instance type="Background" uid="1539">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -77,11 +69,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="HalfPyramid" uid="1548">
-=======
-                <instance type="HalfPyramid" uid="1540">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -122,11 +110,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Box2" uid="1549">
-=======
-                <instance type="Box2" uid="1541">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -148,11 +132,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1550">
-=======
-                <instance type="Ground" uid="1542">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -181,11 +161,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1551">
-=======
-                <instance type="Ground" uid="1543">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -214,11 +190,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1552">
-=======
-                <instance type="Ground" uid="1544">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -247,11 +219,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1553">
-=======
-                <instance type="Ground" uid="1545">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -280,11 +248,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1554">
-=======
-                <instance type="Ground" uid="1546">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -313,11 +277,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1555">
-=======
-                <instance type="Ground" uid="1547">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -346,11 +306,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1556">
-=======
-                <instance type="Ground" uid="1548">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -379,11 +335,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1557">
-=======
-                <instance type="Ground" uid="1549">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -412,11 +364,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1558">
-=======
-                <instance type="Ground" uid="1550">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -445,11 +393,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1559">
-=======
-                <instance type="Ground" uid="1551">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -478,11 +422,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1560">
-=======
-                <instance type="Ground" uid="1552">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -511,11 +451,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1561">
-=======
-                <instance type="Ground" uid="1553">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -544,11 +480,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1562">
-=======
-                <instance type="Ground" uid="1554">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -577,11 +509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1563">
-=======
-                <instance type="Ground" uid="1555">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -610,11 +538,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1564">
-=======
-                <instance type="Ground" uid="1556">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -643,11 +567,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1565">
-=======
-                <instance type="Ground" uid="1557">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -676,11 +596,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1566">
-=======
-                <instance type="Ground" uid="1558">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -709,11 +625,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1567">
-=======
-                <instance type="Ground" uid="1559">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -742,11 +654,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1568">
-=======
-                <instance type="Ground" uid="1560">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -775,11 +683,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1569">
-=======
-                <instance type="Ground" uid="1561">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -808,11 +712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1570">
-=======
-                <instance type="Ground" uid="1562">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -841,11 +741,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1571">
-=======
-                <instance type="Ground" uid="1563">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -874,11 +770,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1572">
-=======
-                <instance type="Ground" uid="1564">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -907,11 +799,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1573">
-=======
-                <instance type="Ground" uid="1565">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -940,11 +828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1574">
-=======
-                <instance type="Ground" uid="1566">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -973,11 +857,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1575">
-=======
-                <instance type="Ground" uid="1567">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1006,11 +886,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1576">
-=======
-                <instance type="Ground" uid="1568">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1039,11 +915,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1577">
-=======
-                <instance type="Ground" uid="1569">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1072,11 +944,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1578">
-=======
-                <instance type="Ground" uid="1570">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1105,11 +973,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1579">
-=======
-                <instance type="Ground" uid="1571">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1138,11 +1002,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1580">
-=======
-                <instance type="Ground" uid="1572">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1171,11 +1031,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1581">
-=======
-                <instance type="Ground" uid="1573">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1204,11 +1060,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1582">
-=======
-                <instance type="Ground" uid="1574">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1237,11 +1089,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1583">
-=======
-                <instance type="Ground" uid="1575">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1270,11 +1118,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1584">
-=======
-                <instance type="Ground" uid="1576">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1303,11 +1147,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1585">
-=======
-                <instance type="Ground" uid="1577">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1336,11 +1176,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1586">
-=======
-                <instance type="Ground" uid="1578">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1369,11 +1205,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1587">
-=======
-                <instance type="Ground" uid="1579">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1402,11 +1234,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1588">
-=======
-                <instance type="Ground" uid="1580">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1435,11 +1263,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1589">
-=======
-                <instance type="Ground" uid="1581">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1468,11 +1292,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1590">
-=======
-                <instance type="Ground" uid="1582">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1501,11 +1321,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1591">
-=======
-                <instance type="Ground" uid="1583">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1534,11 +1350,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1592">
-=======
-                <instance type="Ground" uid="1584">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1567,11 +1379,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1593">
-=======
-                <instance type="Ground" uid="1585">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1600,11 +1408,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1594">
-=======
-                <instance type="Ground" uid="1586">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1633,11 +1437,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1595">
-=======
-                <instance type="Ground" uid="1587">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1666,11 +1466,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1596">
-=======
-                <instance type="Ground" uid="1588">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1699,11 +1495,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1597">
-=======
-                <instance type="Ground" uid="1589">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1732,11 +1524,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1598">
-=======
-                <instance type="Ground" uid="1590">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1765,11 +1553,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1599">
-=======
-                <instance type="Ground" uid="1591">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1798,11 +1582,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1600">
-=======
-                <instance type="Ground" uid="1592">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1831,11 +1611,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1601">
-=======
-                <instance type="Ground" uid="1593">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1864,11 +1640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1602">
-=======
-                <instance type="Ground" uid="1594">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1897,11 +1669,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1603">
-=======
-                <instance type="Ground" uid="1595">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1930,11 +1698,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1604">
-=======
-                <instance type="Ground" uid="1596">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1963,11 +1727,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1605">
-=======
-                <instance type="Ground" uid="1597">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1996,11 +1756,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1606">
-=======
-                <instance type="Ground" uid="1598">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2029,11 +1785,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1607">
-=======
-                <instance type="Ground" uid="1599">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2062,11 +1814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1608">
-=======
-                <instance type="Ground" uid="1600">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2095,11 +1843,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1609">
-=======
-                <instance type="Ground" uid="1601">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2128,11 +1872,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1610">
-=======
-                <instance type="Ground" uid="1602">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2161,11 +1901,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1611">
-=======
-                <instance type="Ground" uid="1603">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2194,11 +1930,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1612">
-=======
-                <instance type="Ground" uid="1604">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2227,11 +1959,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1613">
-=======
-                <instance type="Ground" uid="1605">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2260,11 +1988,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1614">
-=======
-                <instance type="Ground" uid="1606">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2293,11 +2017,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1615">
-=======
-                <instance type="Ground" uid="1607">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2326,11 +2046,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1616">
-=======
-                <instance type="Ground" uid="1608">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2359,11 +2075,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1617">
-=======
-                <instance type="Ground" uid="1609">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2392,11 +2104,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1618">
-=======
-                <instance type="Ground" uid="1610">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2425,11 +2133,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1619">
-=======
-                <instance type="Ground" uid="1611">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2458,11 +2162,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1620">
-=======
-                <instance type="Ground" uid="1612">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2491,11 +2191,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1621">
-=======
-                <instance type="Ground" uid="1613">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2524,11 +2220,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1622">
-=======
-                <instance type="Ground" uid="1614">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2557,11 +2249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1623">
-=======
-                <instance type="Ground" uid="1615">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2590,11 +2278,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1624">
-=======
-                <instance type="Ground" uid="1616">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2623,11 +2307,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1625">
-=======
-                <instance type="Ground" uid="1617">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2656,11 +2336,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1626">
-=======
-                <instance type="Ground" uid="1618">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2689,11 +2365,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1627">
-=======
-                <instance type="Ground" uid="1619">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2722,11 +2394,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1628">
-=======
-                <instance type="Ground" uid="1620">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2755,11 +2423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1629">
-=======
-                <instance type="Ground" uid="1621">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2788,11 +2452,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1630">
-=======
-                <instance type="Ground" uid="1622">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2821,11 +2481,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1631">
-=======
-                <instance type="Ground" uid="1623">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2854,11 +2510,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1632">
-=======
-                <instance type="Ground" uid="1624">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2887,11 +2539,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1633">
-=======
-                <instance type="Ground" uid="1625">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2920,11 +2568,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1634">
-=======
-                <instance type="Ground" uid="1626">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2953,11 +2597,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1635">
-=======
-                <instance type="Ground" uid="1627">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2986,11 +2626,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1636">
-=======
-                <instance type="Ground" uid="1628">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3019,11 +2655,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1637">
-=======
-                <instance type="Ground" uid="1629">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3052,11 +2684,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1638">
-=======
-                <instance type="Ground" uid="1630">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3085,11 +2713,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1639">
-=======
-                <instance type="Ground" uid="1631">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3118,11 +2742,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1640">
-=======
-                <instance type="Ground" uid="1632">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3151,11 +2771,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1641">
-=======
-                <instance type="Ground" uid="1633">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3184,11 +2800,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1642">
-=======
-                <instance type="Ground" uid="1634">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3217,11 +2829,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1643">
-=======
-                <instance type="Ground" uid="1635">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3250,11 +2858,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1644">
-=======
-                <instance type="Ground" uid="1636">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3283,11 +2887,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1645">
-=======
-                <instance type="Ground" uid="1637">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3316,11 +2916,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1646">
-=======
-                <instance type="Ground" uid="1638">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3349,11 +2945,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1647">
-=======
-                <instance type="Ground" uid="1639">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3382,11 +2974,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1648">
-=======
-                <instance type="Ground" uid="1640">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3415,11 +3003,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1649">
-=======
-                <instance type="Ground" uid="1641">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3448,11 +3032,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1650">
-=======
-                <instance type="Ground" uid="1642">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3481,11 +3061,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1651">
-=======
-                <instance type="Ground" uid="1643">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3514,11 +3090,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1652">
-=======
-                <instance type="Ground" uid="1644">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3547,11 +3119,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1653">
-=======
-                <instance type="Ground" uid="1645">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3580,11 +3148,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1654">
-=======
-                <instance type="Ground" uid="1646">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3613,11 +3177,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1655">
-=======
-                <instance type="Ground" uid="1647">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3646,11 +3206,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1656">
-=======
-                <instance type="Ground" uid="1648">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3679,11 +3235,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1657">
-=======
-                <instance type="Ground" uid="1649">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3712,11 +3264,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1658">
-=======
-                <instance type="Ground" uid="1650">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3745,11 +3293,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1659">
-=======
-                <instance type="Ground" uid="1651">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3778,13 +3322,8 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1660">
-=======
-                <instance type="Ground" uid="1652">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                    <properties>                        <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>1</initial-frame>
                         <collisions>Enabled</collisions>
@@ -3811,11 +3350,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1661">
-=======
-                <instance type="Ground" uid="1653">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3844,11 +3379,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1662">
-=======
-                <instance type="Ground" uid="1654">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3877,11 +3408,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1663">
-=======
-                <instance type="Ground" uid="1655">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3910,11 +3437,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1664">
-=======
-                <instance type="Ground" uid="1656">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3943,11 +3466,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1665">
-=======
-                <instance type="Ground" uid="1657">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3976,11 +3495,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1666">
-=======
-                <instance type="Ground" uid="1658">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4009,11 +3524,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1667">
-=======
-                <instance type="Ground" uid="1659">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4042,11 +3553,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1668">
-=======
-                <instance type="Ground" uid="1660">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4075,11 +3582,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1669">
-=======
-                <instance type="Ground" uid="1661">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4108,11 +3611,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1670">
-=======
-                <instance type="Ground" uid="1662">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4141,11 +3640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1671">
-=======
-                <instance type="Ground" uid="1663">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4174,11 +3669,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1672">
-=======
-                <instance type="Ground" uid="1664">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4207,11 +3698,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1673">
-=======
-                <instance type="Ground" uid="1665">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4240,11 +3727,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1674">
-=======
-                <instance type="Ground" uid="1666">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4273,11 +3756,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1675">
-=======
-                <instance type="Ground" uid="1667">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4306,11 +3785,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1676">
-=======
-                <instance type="Ground" uid="1668">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4339,11 +3814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1677">
-=======
-                <instance type="Ground" uid="1669">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4372,11 +3843,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1678">
-=======
-                <instance type="Ground" uid="1670">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4405,11 +3872,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1679">
-=======
-                <instance type="Ground" uid="1671">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4438,11 +3901,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1680">
-=======
-                <instance type="Ground" uid="1672">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4471,11 +3930,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1681">
-=======
-                <instance type="Ground" uid="1673">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4504,11 +3959,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1682">
-=======
-                <instance type="Ground" uid="1674">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4537,11 +3988,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1683">
-=======
-                <instance type="Ground" uid="1675">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4570,11 +4017,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1684">
-=======
-                <instance type="Ground" uid="1676">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4603,11 +4046,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1685">
-=======
-                <instance type="Ground" uid="1677">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4636,11 +4075,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1686">
-=======
-                <instance type="Ground" uid="1678">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4669,11 +4104,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1687">
-=======
-                <instance type="Ground" uid="1679">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4702,11 +4133,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1688">
-=======
-                <instance type="Ground" uid="1680">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4735,11 +4162,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1689">
-=======
-                <instance type="Ground" uid="1681">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4768,11 +4191,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1690">
-=======
-                <instance type="Ground" uid="1682">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4801,11 +4220,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1691">
-=======
-                <instance type="Ground" uid="1683">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4834,11 +4249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1692">
-=======
-                <instance type="Ground" uid="1684">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4867,11 +4278,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1693">
-=======
-                <instance type="Ground" uid="1685">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4900,11 +4307,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1694">
-=======
-                <instance type="Spikes" uid="1686">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4926,11 +4329,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1695">
-=======
-                <instance type="Spikes" uid="1687">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4952,11 +4351,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1696">
-=======
-                <instance type="Spikes" uid="1688">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4978,11 +4373,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1697">
-=======
-                <instance type="Spikes" uid="1689">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5004,11 +4395,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1698">
-=======
-                <instance type="Spikes" uid="1690">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5030,11 +4417,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1699">
-=======
-                <instance type="Spikes" uid="1691">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5056,11 +4439,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1700">
-=======
-                <instance type="Spikes" uid="1692">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5082,11 +4461,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1701">
-=======
-                <instance type="Ground" uid="1693">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5115,11 +4490,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1702">
-=======
-                <instance type="Ground" uid="1694">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5148,11 +4519,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1703">
-=======
-                <instance type="Ground" uid="1695">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5181,11 +4548,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1704">
-=======
-                <instance type="Ground" uid="1696">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5214,11 +4577,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1705">
-=======
-                <instance type="Ground" uid="1697">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5247,11 +4606,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1706">
-=======
-                <instance type="Ground" uid="1698">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5280,11 +4635,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1707">
-=======
-                <instance type="Ground" uid="1699">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5313,11 +4664,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1708">
-=======
-                <instance type="Ground" uid="1700">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5346,11 +4693,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes2" uid="1709">
-=======
-                <instance type="Spikes2" uid="1701">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5372,11 +4715,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes2" uid="1710">
-=======
-                <instance type="Spikes2" uid="1702">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5398,11 +4737,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1711">
-=======
-                <instance type="Ground" uid="1703">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5431,11 +4766,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1712">
-=======
-                <instance type="Ground" uid="1704">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5464,11 +4795,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1713">
-=======
-                <instance type="Ground" uid="1705">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5497,11 +4824,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1714">
-=======
-                <instance type="Ground" uid="1706">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5530,11 +4853,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes2" uid="1715">
-=======
-                <instance type="Spikes2" uid="1707">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5556,11 +4875,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes2" uid="1716">
-=======
-                <instance type="Spikes2" uid="1708">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5582,11 +4897,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1717">
-=======
-                <instance type="Ground" uid="1709">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5615,11 +4926,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1718">
-=======
-                <instance type="Ground" uid="1710">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5648,11 +4955,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1719">
-=======
-                <instance type="Ground" uid="1711">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5681,11 +4984,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1720">
-=======
-                <instance type="Ground" uid="1712">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5714,11 +5013,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes2" uid="1721">
-=======
-                <instance type="Spikes2" uid="1713">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5740,11 +5035,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1722">
-=======
-                <instance type="Ground" uid="1714">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5773,11 +5064,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes3" uid="1723">
-=======
-                <instance type="Spikes3" uid="1715">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5799,11 +5086,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1724">
-=======
-                <instance type="Spikes" uid="1716">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5825,11 +5108,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1725">
-=======
-                <instance type="FallGround" uid="1717">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5858,11 +5137,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1726">
-=======
-                <instance type="Spikes" uid="1718">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5884,11 +5159,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1727">
-=======
-                <instance type="Ground" uid="1719">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5917,11 +5188,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1728">
-=======
-                <instance type="FallGround" uid="1720">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5950,11 +5217,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1729">
-=======
-                <instance type="Spikes" uid="1721">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5976,11 +5239,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1730">
-=======
-                <instance type="FallGround" uid="1722">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6009,11 +5268,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1731">
-=======
-                <instance type="FallGround" uid="1723">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6042,11 +5297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1732">
-=======
-                <instance type="FallGround" uid="1724">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6075,11 +5326,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1733">
-=======
-                <instance type="FallGround" uid="1725">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6108,11 +5355,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1734">
-=======
-                <instance type="Ground" uid="1726">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6141,11 +5384,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1735">
-=======
-                <instance type="Ground" uid="1727">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6174,11 +5413,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1736">
-=======
-                <instance type="Ground" uid="1728">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6207,11 +5442,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1737">
-=======
-                <instance type="Ground" uid="1729">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6240,11 +5471,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1738">
-=======
-                <instance type="Ground" uid="1730">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6273,11 +5500,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1739">
-=======
-                <instance type="Ground" uid="1731">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6306,11 +5529,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1740">
-=======
-                <instance type="Ground" uid="1732">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6339,11 +5558,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1741">
-=======
-                <instance type="Ground" uid="1733">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6372,11 +5587,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1742">
-=======
-                <instance type="Ground" uid="1734">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6405,11 +5616,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1743">
-=======
-                <instance type="Ground" uid="1735">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6438,11 +5645,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1744">
-=======
-                <instance type="Ground" uid="1736">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6471,11 +5674,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1745">
-=======
-                <instance type="Ground" uid="1737">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6504,11 +5703,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1746">
-=======
-                <instance type="Ground" uid="1738">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6537,11 +5732,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1747">
-=======
-                <instance type="Ground" uid="1739">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6570,11 +5761,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1748">
-=======
-                <instance type="Ground" uid="1740">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6603,11 +5790,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1749">
-=======
-                <instance type="Ground" uid="1741">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6636,11 +5819,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1750">
-=======
-                <instance type="Ground" uid="1742">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6669,11 +5848,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1751">
-=======
-                <instance type="Ground" uid="1743">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6702,11 +5877,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1752">
-=======
-                <instance type="Ground" uid="1744">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6735,11 +5906,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1753">
-=======
-                <instance type="Ground" uid="1745">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6768,11 +5935,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1754">
-=======
-                <instance type="FallGround" uid="1746">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6801,11 +5964,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="FallGround" uid="1755">
-=======
-                <instance type="FallGround" uid="1747">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6834,11 +5993,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Button" uid="1756">
-=======
-                <instance type="Button" uid="1748">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6881,11 +6036,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1757">
-=======
-                <instance type="Lock" uid="1749">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6928,11 +6079,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1758">
-=======
-                <instance type="Lock" uid="1750">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6975,11 +6122,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1759">
-=======
-                <instance type="Lock" uid="1751">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7022,11 +6165,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1760">
-=======
-                <instance type="Lock" uid="1752">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7069,11 +6208,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1761">
-=======
-                <instance type="Lock" uid="1753">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7116,11 +6251,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1762">
-=======
-                <instance type="Lock" uid="1754">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7163,11 +6294,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1763">
-=======
-                <instance type="Lock" uid="1755">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7210,11 +6337,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock" uid="1764">
-=======
-                <instance type="Lock" uid="1756">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7257,11 +6380,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickButton" uid="1765">
-=======
-                <instance type="TrickButton" uid="1757">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7290,11 +6409,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1766">
-=======
-                <instance type="Lock2" uid="1758">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7337,11 +6452,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1767">
-=======
-                <instance type="Lock2" uid="1759">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7384,11 +6495,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1768">
-=======
-                <instance type="Lock2" uid="1760">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7431,11 +6538,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1769">
-=======
-                <instance type="Lock2" uid="1761">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7478,11 +6581,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1770">
-=======
-                <instance type="Lock2" uid="1762">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7525,11 +6624,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1771">
-=======
-                <instance type="Lock2" uid="1763">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7572,11 +6667,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1772">
-=======
-                <instance type="Lock2" uid="1764">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7619,11 +6710,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes2" uid="1773">
-=======
-                <instance type="Spikes2" uid="1765">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7645,11 +6732,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1774">
-=======
-                <instance type="Spikes" uid="1766">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7671,11 +6754,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1775">
-=======
-                <instance type="Spikes" uid="1767">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7697,11 +6776,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1776">
-=======
-                <instance type="Spikes" uid="1768">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7723,11 +6798,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1777">
-=======
-                <instance type="Spikes" uid="1769">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7749,11 +6820,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1778">
-=======
-                <instance type="Spikes" uid="1770">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7775,11 +6842,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1779">
-=======
-                <instance type="Spikes" uid="1771">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7801,11 +6864,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1780">
-=======
-                <instance type="Spikes" uid="1772">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7827,11 +6886,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1781">
-=======
-                <instance type="TrickGround" uid="1773">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7860,11 +6915,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1782">
-=======
-                <instance type="Spikes" uid="1774">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7886,11 +6937,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Button2" uid="1783">
-=======
-                <instance type="Button2" uid="1775">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7919,11 +6966,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Lock2" uid="1784">
-=======
-                <instance type="Lock2" uid="1776">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7966,11 +7009,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1785">
-=======
-                <instance type="TrickGround" uid="1777">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7999,11 +7038,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1786">
-=======
-                <instance type="TrickGround" uid="1778">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8032,11 +7067,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1787">
-=======
-                <instance type="TrickGround" uid="1779">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8065,11 +7096,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1788">
-=======
-                <instance type="TrickGround" uid="1780">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8098,11 +7125,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1789">
-=======
-                <instance type="TrickGround" uid="1781">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8131,11 +7154,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1790">
-=======
-                <instance type="TrickGround" uid="1782">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8164,11 +7183,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1791">
-=======
-                <instance type="TrickGround" uid="1783">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8197,11 +7212,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1792">
-=======
-                <instance type="TrickGround" uid="1784">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8230,11 +7241,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1793">
-=======
-                <instance type="Spikes" uid="1785">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8256,11 +7263,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1794">
-=======
-                <instance type="Spikes" uid="1786">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8282,11 +7285,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1795">
-=======
-                <instance type="Spikes" uid="1787">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8308,11 +7307,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1796">
-=======
-                <instance type="Spikes" uid="1788">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8334,11 +7329,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1797">
-=======
-                <instance type="Spikes" uid="1789">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8360,11 +7351,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1798">
-=======
-                <instance type="Spikes" uid="1790">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8386,11 +7373,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1799">
-=======
-                <instance type="Spikes" uid="1791">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8412,11 +7395,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1800">
-=======
-                <instance type="Spikes" uid="1792">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8438,11 +7417,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1801">
-=======
-                <instance type="TrickGround" uid="1793">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8471,11 +7446,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1802">
-=======
-                <instance type="TrickGround" uid="1794">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8504,11 +7475,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1803">
-=======
-                <instance type="TrickGround" uid="1795">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8537,11 +7504,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1804">
-=======
-                <instance type="TrickGround" uid="1796">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8570,11 +7533,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1805">
-=======
-                <instance type="TrickGround" uid="1797">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8603,11 +7562,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1806">
-=======
-                <instance type="TrickGround" uid="1798">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8636,11 +7591,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1807">
-=======
-                <instance type="TrickGround" uid="1799">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8669,11 +7620,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1808">
-=======
-                <instance type="TrickGround" uid="1800">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8702,11 +7649,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="TrickGround" uid="1809">
-=======
-                <instance type="TrickGround" uid="1801">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8735,11 +7678,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1810">
-=======
-                <instance type="Spikes" uid="1802">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8761,11 +7700,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1811">
-=======
-                <instance type="Spikes" uid="1803">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8787,11 +7722,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spikes" uid="1812">
-=======
-                <instance type="Spikes" uid="1804">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8813,11 +7744,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Door" uid="1813">
-=======
-                <instance type="Door" uid="1805">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8839,11 +7766,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="DoorTop" uid="1814">
-=======
-                <instance type="DoorTop" uid="1806">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8865,11 +7788,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1815">
-=======
-                <instance type="Ground" uid="1807">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8898,11 +7817,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1816">
-=======
-                <instance type="Ground" uid="1808">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8931,11 +7846,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Ground" uid="1817">
-=======
-                <instance type="Ground" uid="1809">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8964,11 +7875,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Box" uid="1818">
-=======
-                <instance type="Box" uid="1810">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8990,11 +7897,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Box" uid="1819">
-=======
-                <instance type="Box" uid="1811">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9016,11 +7919,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Box2" uid="1820">
-=======
-                <instance type="Box2" uid="1812">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9042,11 +7941,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Box" uid="1821">
-=======
-                <instance type="Box" uid="1813">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9068,11 +7963,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Box2" uid="1822">
-=======
-                <instance type="Box2" uid="1814">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9113,11 +8004,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spider" uid="1823">
-=======
-                <instance type="Spider" uid="1815">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9156,11 +8043,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spider" uid="1824">
-=======
-                <instance type="Spider" uid="1816">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9199,11 +8082,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Spider" uid="1825">
-=======
-                <instance type="Spider" uid="1817">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9261,11 +8140,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="Player" uid="1826">
-=======
-                <instance type="Player" uid="1818">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -9313,11 +8188,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD:Layouts/Level 3.xml
                 <instance type="HalfPyramid" uid="1827">
-=======
-                <instance type="HalfPyramid" uid="1819">
->>>>>>> 3c6d1e1f6ba9c9e64afed559e320d647807211da:Layouts/Level 3.xml
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
