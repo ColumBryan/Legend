@@ -169,5 +169,28 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="3530107140067929">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8570093008500398" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="5729814598918526" type="System">
+                    <param id="0" name="Width">1900</param>
+                    <param id="1" name="Height">950</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9562863110387386">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="492226721460178" type="Car">
+                    <param id="0" name="Object">NightDoor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5998208623221516" type="System">
+                    <param id="0" name="Layout">Level 1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

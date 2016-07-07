@@ -7942,7 +7942,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="Box" uid="1073">
+                <instance type="Box" uid="1077">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7964,7 +7964,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="Box2" uid="1074">
+                <instance type="Box2" uid="1078">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8005,7 +8005,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Spider" uid="1075">
+                <instance type="Spider" uid="1079">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8044,7 +8044,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spider" uid="1076">
+                <instance type="Spider" uid="1080">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8083,7 +8083,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Spider" uid="1077">
+                <instance type="Spider" uid="1081">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8141,7 +8141,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="1078">
+                <instance type="Player" uid="1082">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8189,7 +8189,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfPyramid" uid="1079">
+                <instance type="HalfPyramid" uid="1083">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

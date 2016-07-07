@@ -3,22 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level 1 ES</name>
     <events>
-        <event-block sid="4691264462407276">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="7148008050050748" type="Player">
-                    <param id="0" name="Object">Button</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Physics" id="21" name="Set immovable" sid="7102713380036465" type="Lock">
-                    <param id="0" name="Setting">0</param>
-                </action>
-                <action id="4" name="Set animation" sid="4010368213598215" type="Button">
-                    <param id="0" name="Animation">&quot;Pressed&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="3773863016092549">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="7727319972888507" type="Player">
@@ -34,92 +18,6 @@
                     <param id="1" name="From">1</param>
                 </action>
             </actions>
-            <sub-events>
-                <event-block sid="3608695600719294">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="9674438641650774" type="Lock">
-                            <param id="0" name="Unique ID">364</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="679782686934093" type="Lock">
-                            <param id="0" name="Impulse">40</param>
-                            <param id="1" name="Angle">5</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3604234941060116">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="5239859606908052" type="Lock">
-                            <param id="0" name="Unique ID">365</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="227406032232461" type="Lock">
-                            <param id="0" name="Impulse">40</param>
-                            <param id="1" name="Angle">100</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="8551870047253471">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="4186051833265743" type="Lock">
-                            <param id="0" name="Unique ID">366</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="9551229201732624" type="Lock">
-                            <param id="0" name="Impulse">40</param>
-                            <param id="1" name="Angle">-30</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3679105613577182">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="3572470939840222" type="Lock">
-                            <param id="0" name="Unique ID">367</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="5262898187989076" type="Lock">
-                            <param id="0" name="Impulse">40</param>
-                            <param id="1" name="Angle">120</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="7474135834658038">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="5230168758597537" type="Lock">
-                            <param id="0" name="Unique ID">368</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="8700657383612889" type="Lock">
-                            <param id="0" name="Impulse">40</param>
-                            <param id="1" name="Angle">-60</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="3493035746524919">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="9433849468753642" type="Lock">
-                            <param id="0" name="Unique ID">369</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action behavior="Physics" id="5" name="Apply impulse at angle" sid="8347136301299593" type="Lock">
-                            <param id="0" name="Impulse">40</param>
-                            <param id="1" name="Angle">150</param>
-                            <param id="2" name="Image point">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="5112595866517487">
             <conditions>
@@ -212,6 +110,29 @@
             </conditions>
             <actions>
                 <action behavior="Platform" id="12" name="Fall through" sid="7592067202953647" type="Player" />
+            </actions>
+        </event-block>
+        <event-block sid="5507409449611856">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4399936191482611" type="Player">
+                    <param id="0" name="Object">PlaneDoor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1892320608868735" type="System">
+                    <param id="0" name="Layout">Level 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="117081568390926">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5130215173758922" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="3551716446095005" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
             </actions>
         </event-block>
     </events>
