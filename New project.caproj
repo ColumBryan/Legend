@@ -1111,6 +1111,25 @@
         <object-type name="ConvoGuide" sid="7595372205392348">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite" sid="4116742032334355">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="88558799560831" speed="5">
+                    <frame duration="1" hotspotX="0.511719" hotspotY="0.556842" original-source="C:\Users\Marist User\Downloads\Gravestone.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Story2Home" sid="5826380814089743">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2762406661240287" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Marist User\Downloads\Kevins home.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="2820224857923474">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
