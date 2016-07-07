@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -1073,7 +1073,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="Sprite" sid="6429978887688854">
             <plugin id="Sprite" />
             <animation-folder>
@@ -1119,7 +1118,7 @@
                     </frame>
                 </animation>
             </animation-folder>
-=======
+        </object-type>
         <object-type name="ConvoPt3" sid="8300004784834924">
             <plugin id="Text" />
         </object-type>
@@ -1155,7 +1154,6 @@
         </object-type>
         <object-type name="ConvoGuide" sid="7595372205392348">
             <plugin id="Text" />
->>>>>>> e58524ed893ce8db61bde3763a629999e216091a
         </object-type>
     </object-folder>
     <families />
@@ -1171,11 +1169,7 @@
     <event-folder>
         <event-sheet>Title ES.xml</event-sheet>
         <event-sheet>Story1 ES.xml</event-sheet>
-<<<<<<< HEAD
         <event-sheet>Story 2 ES.xml</event-sheet>
-=======
-        <event-sheet>Story2 ES.xml</event-sheet>
->>>>>>> e58524ed893ce8db61bde3763a629999e216091a
         <event-sheet>Tutorial ES.xml</event-sheet>
         <event-sheet>Level 1 ES.xml</event-sheet>
         <event-sheet>Level 2 ES.xml</event-sheet>

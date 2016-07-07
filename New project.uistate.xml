@@ -13,7 +13,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Title</layout>
         <layout active="1" order="2">Story 1</layout>
         <layout order="4">Story 2</layout>
-<<<<<<< HEAD
         <layout active="1" order="5">Tutorial</layout>
         <layout order="7">Level 1</layout>
         <layout order="9">Level 2</layout>
@@ -24,18 +23,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="8">Level 1 ES</event-sheet>
         <event-sheet order="10">Level 2 ES</event-sheet>
         <event-sheet order="12">Level 3 ES</event-sheet>
-=======
-        <layout order="6">Tutorial</layout>
-        <layout order="8">Level 1</layout>
-        <layout order="10">Level 2</layout>
-        <layout order="12">Level 3</layout>
-        <event-sheet order="1">Title ES</event-sheet>
-        <event-sheet order="3">Story1 ES</event-sheet>
-        <event-sheet order="5">Tutorial ES</event-sheet>
-        <event-sheet order="7">Level 1 ES</event-sheet>
-        <event-sheet order="9">Level 2 ES</event-sheet>
-        <event-sheet order="11">Level 3 ES</event-sheet>
->>>>>>> e58524ed893ce8db61bde3763a629999e216091a
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -92,13 +79,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/PlaneDoor2/" />
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/AirportFloor/" />
-<<<<<<< HEAD
         <folder expanded="1" path="animation-folder/NightDoor/" />
         <folder expanded="1" path="animation-folder/NightDoor2/" />
-=======
-        <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/Sprite5/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
->>>>>>> e58524ed893ce8db61bde3763a629999e216091a
     </folders-expanded>
 </c2uistate>
