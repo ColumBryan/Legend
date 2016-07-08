@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -938,6 +938,11 @@
         </object-type>
         <object-type name="AirPlane" sid="3315152512220398">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="6957770159982237">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5518948185510229" speed="5">
                     <frame duration="1" hotspotX="0.643863" hotspotY="1.53698" original-source="D:\Legend\Legend\Plane.png">
@@ -1081,8 +1086,9 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="5">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneCenter.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1151,7 +1157,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="88558799560831" speed="5">
-                    <frame duration="1" hotspotX="0.511719" hotspotY="0.556842" original-source="C:\Users\Marist User\Downloads\Gravestone.jpg" />
+                    <frame duration="1" hotspotX="0.512" hotspotY="0.556" original-source="C:\Users\Marist User\Downloads\Gravestone.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
