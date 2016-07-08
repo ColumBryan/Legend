@@ -509,5 +509,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="7943139373411378">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7422675161760589" type="Player">
+                    <param id="0" name="Object">Crystal</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3336684010426129" type="Crystal" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -7867,11 +7867,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-<<<<<<< HEAD
                 <instance type="Ground" uid="743">
-=======
-                <instance type="Ground" uid="491">
->>>>>>> 650571fc3b88295134cc4f453fcf41cf879c2f57
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
