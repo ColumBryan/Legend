@@ -4,5 +4,38 @@
     <name>Story 2 ES</name>
     <events>
         <variable constant="0" name="Story2" sid="5569765553155865" static="0" type="number">0</variable>
+        <event-block sid="4859933922685735">
+            <conditions>
+                <condition id="0" name="On click" sid="6488706045001009" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5473269153545585" type="Story2Home" />
+                <action id="-3" name="Set position" sid="4708161318847645" type="Story2Chest">
+                    <param id="0" name="X">441</param>
+                    <param id="1" name="Y">198</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2207836845213216" type="S2T1" />
+                <action id="-3" name="Set position" sid="273521618261846" type="S2T2">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8114709667285338">
+            <conditions>
+                <condition id="0" name="On click" sid="8901300312800434" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8288493256919942" type="System">
+                    <param id="0" name="Layout">Level 1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -86,5 +86,40 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1607390229337802">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="1609191566093818" type="Mouse">
+                    <param id="0" name="Object">TitleCredits</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="5434671443945734" type="TitleCredits">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1074383094395776">
+            <conditions>
+                <condition id="-22" name="Else" sid="3218411004454688" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1973182514485283" type="TitleCredits">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7701044778983292">
+            <conditions>
+                <condition id="0" name="On click" sid="5246814096992426" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5392005356670492" type="System">
+                    <param id="0" name="Layout">Title</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
