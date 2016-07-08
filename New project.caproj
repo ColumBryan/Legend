@@ -19,6 +19,7 @@
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
@@ -33,8 +34,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>870</width>
+        <height>630</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -50,7 +51,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">Chrome</prop>
+        <prop name="Preview browser">(default)</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -138,11 +139,13 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6226595419951285" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Items\spikes.png">
                         <collision-poly>
-                            <point x="0.242857" y="0.242857" />
-                            <point x="0.5" y="0.471429" />
-                            <point x="0.757143" y="0.242857" />
+                            <point x="0.496428" y="0.457143" />
+                            <point x="0.339286" y="0.0142857" />
+                            <point x="0.164286" y="0.482143" />
                             <point x="0" y="0" />
                             <point x="1" y="0" />
+                            <point x="0.841964" y="0.492857" />
+                            <point x="0.669643" y="0" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -575,9 +578,9 @@
                 <animation framecount="1" loop="0" name="Pressed" pingpong="0" repeatcount="1" repeatto="0" sid="6471202342301177" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Items\buttonGreen_pressed.png">
                         <collision-poly>
-                            <point x="0.296428" y="0.692857" />
-                            <point x="0.5" y="0.628571" />
-                            <point x="0.717858" y="0.703571" />
+                            <point x="0.257142" y="0.746428" />
+                            <point x="0.492857" y="0.657142" />
+                            <point x="0.757144" y="0.75" />
                             <point x="1" y="1" />
                             <point x="0" y="1" />
                         </collision-poly>
@@ -892,6 +895,11 @@
         </object-type>
         <object-type name="AirPlane" sid="3315152512220398">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="6182787063851396">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5518948185510229" speed="5">
                     <frame duration="1" hotspotX="0.643863" hotspotY="1.53698" original-source="D:\Legend\Legend\Plane.png">
@@ -1035,8 +1043,9 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="5">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneMid.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneCenter.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1104,9 +1113,8 @@
         <object-type name="Story2Home" sid="5826380814089743">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2762406661240287" speed="0">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2762406661240287" speed="0">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Marist User\Downloads\Kevins home.jpg" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.377982" original-source="C:\Users\Marist User\Downloads\Trunk and book.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1173,6 +1181,39 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Chest" sid="7015637595385792">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3434992045804604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.382514" original-source="C:\Users\Marist User\Downloads\Trunk.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Story2Chest" sid="9260693808134441">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3215474022427377" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.382514" original-source="C:\Users\Marist User\Downloads\Trunk and book.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TitleCredits" sid="1371024145695788">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4359730063669391" speed="5">
+                    <frame duration="1" hotspotX="0.559006" hotspotY="0.6" original-source="D:\FinalProject\Legend\credits.png" />
+                    <frame duration="1" hotspotX="0.558282" hotspotY="0.607843" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Death" sid="6921040362981569">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="2126140383683356">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
         </object-type>
     </object-folder>
     <families />

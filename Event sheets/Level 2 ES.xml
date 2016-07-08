@@ -104,6 +104,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="7263834637679857" type="System" />
+                <action id="-10" name="Add to" sid="5245101303503763" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="566285847645508">
@@ -138,6 +142,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="7437267926457819" type="System" />
+                <action id="-10" name="Add to" sid="3327891609919589" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="135889641157389">
@@ -196,6 +204,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="5065306396825695" type="System" />
+                <action id="-10" name="Add to" sid="6935796085949706" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="9168094844815994">
@@ -218,6 +230,10 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="6711605652246671" type="System" />
+                <action id="-10" name="Add to" sid="6060266777802239" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="3234886848738155">
@@ -228,6 +244,20 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="81352520150195" type="System" />
+                <action id="-10" name="Add to" sid="2679214166233781" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9186679851879534">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5175088061096627" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="1704218071389138" type="Death">
+                    <param id="0" name="Text">&quot;Deaths: &quot;&amp;Death</param>
+                </action>
             </actions>
         </event-block>
     </events>

@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level 1 ES</name>
     <events>
+        <variable constant="0" name="Death" sid="8757397356076995" static="0" type="number">0</variable>
         <event-block sid="3773863016092549">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="7727319972888507" type="Player">
@@ -112,18 +113,6 @@
                 <action behavior="Platform" id="12" name="Fall through" sid="7592067202953647" type="Player" />
             </actions>
         </event-block>
-        <event-block sid="5507409449611856">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="4399936191482611" type="Player">
-                    <param id="0" name="Object">PlaneDoor</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="1892320608868735" type="System">
-                    <param id="0" name="Layout">Level 2</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="117081568390926">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="5130215173758922" type="System" />
@@ -132,6 +121,55 @@
                 <action id="-28" name="Set canvas size" sid="3551716446095005" type="System">
                     <param id="0" name="Width">854</param>
                     <param id="1" name="Height">480</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7828578411170202">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="4157568392381393" type="Player">
+                    <param id="0" name="Object">Spikes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="155993429640058" type="System" />
+                <action id="-10" name="Add to" sid="3857293154968703" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5208157998621158">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9346529852784197" type="Player">
+                    <param id="0" name="Object">PlaneDoor</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7981642828744353" type="Player" />
+                <action id="-9" name="Destroy" sid="9670912397280178" type="PlaneDoor" />
+                <action id="-9" name="Destroy" sid="4723284632540317" type="PlaneDoor2" />
+                <action behavior="Bullet" id="5" name="Set enabled" sid="5026907732087844" type="AirPlane">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5971546755436497">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="3443181282479031" type="AirPlane" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6556168318806478" type="System">
+                    <param id="0" name="Layout">Level 2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4197041632337148">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="9306050539425289" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5268790169605256" type="Death">
+                    <param id="0" name="Text">&quot;Deaths: &quot;&amp;Death</param>
                 </action>
             </actions>
         </event-block>

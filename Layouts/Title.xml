@@ -102,8 +102,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>780</x>
-                        <y>255</y>
+                        <x>465</x>
+                        <y>180</y>
                         <z>0</z>
                         <width>91</width>
                         <height>55</height>
@@ -124,7 +124,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>675</x>
+                        <x>615</x>
                         <y>210</y>
                         <z>0</z>
                         <width>172</width>
@@ -132,6 +132,28 @@
                         <depth>0</depth>
                         <hotspotX>0.511627913</hotspotX>
                         <hotspotY>0.613636374</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TitleCredits" uid="563">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>795</x>
+                        <y>240</y>
+                        <z>0</z>
+                        <width>161</width>
+                        <height>45</height>
+                        <depth>0</depth>
+                        <hotspotX>0.559006214</hotspotX>
+                        <hotspotY>0.600000024</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -16054,7 +16054,7 @@
                 </instance>
                 <instance type="Text" uid="408">
                     <properties>
-                        <text>Level 1 --&gt;</text>
+                        <text>Play --&gt;</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-29,700,0</font>
                         <color>255,255,255</color>
