@@ -1215,6 +1215,27 @@
                 </behavior-type>
             </behaviors>
         </object-type>
+        <object-type name="S2T4" sid="670743821517131">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T3" sid="6687278143477302">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T7" sid="8387938526069428">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T6" sid="3955333190610954">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T8" sid="750281510017727">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T5" sid="7497728597613156">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T9" sid="2452078075999192">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
