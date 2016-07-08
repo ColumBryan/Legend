@@ -2,5 +2,53 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Story2 ES</name>
-    <events />
+    <events>
+        <variable constant="0" name="Story2Storyline" sid="8681507829579017" static="0" type="number">0</variable>
+        <event-block sid="8769479909997145">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6904365088920825" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="8851502614045204" type="System">
+                    <param id="0" name="Object to create">S2T1</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">510</param>
+                    <param id="3" name="Y">497</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5397163828906986">
+            <conditions>
+                <condition id="0" name="On click" sid="5637324333610586" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="3731165155382395" type="System">
+                    <param id="0" name="Variable">Story2Storyline</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action disabled="1" id="-9" name="Destroy" sid="7753261512092604" type="S2T1" />
+            </actions>
+        </event-block>
+        <event-block sid="130790200348053">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7885716771792132" type="System">
+                    <param id="0" name="Variable">Story2Storyline</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8115049194072306" type="S2T1" />
+                <action id="-3" name="Create object" sid="830574071319282" type="System">
+                    <param id="0" name="Object to create">S2T2</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">510</param>
+                    <param id="3" name="Y">497</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
