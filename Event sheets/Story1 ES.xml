@@ -4,6 +4,17 @@
     <name>Story1 ES</name>
     <events>
         <variable constant="0" name="Conversations" sid="3102718897822729" static="0" type="number">0</variable>
+        <event-block sid="1357436729222527">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4580182769571302" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="7342630844605699" type="System">
+                    <param id="0" name="Width">854</param>
+                    <param id="1" name="Height">480</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="7366836079416261">
             <conditions>
                 <condition id="6" name="On object clicked" sid="7516688395890294" type="Mouse">
@@ -48,7 +59,11 @@
         </event-block>
         <event-block sid="4263813287624622">
             <conditions>
-                <condition id="14" name="On tap" sid="7195857823869296" type="Touch" />
+                <condition id="6" name="On object clicked" sid="7195857823869296" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Story1Phone</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-10" name="Add to" sid="7996609935365502" type="System">
@@ -81,16 +96,197 @@
                     <param id="2" name="Value">2</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-9" name="Destroy" sid="6417325510236709" type="ConvoPt2" />
+                <action id="-3" name="Set position" sid="4768768516590295" type="ConvoPt3">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
         </event-block>
-        <event-block sid="101622442722421">
+        <event-block sid="2812376205010082">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="5792241809430372" type="System" />
+                <condition id="-14" name="Compare variable" sid="2333157155144612" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="-28" name="Set canvas size" sid="9503781300475555" type="System">
-                    <param id="0" name="Width">870</param>
-                    <param id="1" name="Height">630</param>
+                <action id="-9" name="Destroy" sid="7273577999916878" type="ConvoPt3" />
+                <action id="-3" name="Set position" sid="8738810337631664" type="ConvoPt4">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9413789448787573">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8179828865434539" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2207155563519349" type="ConvoPt4" />
+                <action id="-3" name="Set position" sid="5577037490852771" type="ConvoPt5">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7100405753530007">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1783613637219678" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2088494917887631" type="ConvoPt5" />
+                <action id="-3" name="Set position" sid="2315430447004451" type="ConvoPt6">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9721567821846179">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2791500201697473" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6211069012979991" type="ConvoPt6" />
+                <action id="-3" name="Set position" sid="7884281890028072" type="ConvoPt7">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9922654472630769">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7191811840103172" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6985766009757818" type="ConvoPt7" />
+                <action id="-3" name="Set position" sid="354665231003455" type="ConvoPt8">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3344262121799166">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="6743601356850016" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3570107947936762" type="ConvoPt8" />
+                <action id="-3" name="Set position" sid="6638273739272748" type="ConvoPt9">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="978606903718729">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5943681566646116" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5194117683210627" type="ConvoPt9" />
+                <action id="-3" name="Set position" sid="421498568442681" type="ConvoPt10">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6748011537401827">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2328902727241304" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3068815331271556" type="ConvoPt10" />
+                <action id="-3" name="Set position" sid="2611920108493304" type="ConvoPt11">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7074161810518082">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2989885041425422" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7676996112179685" type="ConvoPt11" />
+                <action id="-3" name="Set position" sid="35335553789487" type="ConvoPt12">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6151919922922263">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9018543027715627" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="583996949332306" type="ConvoPt12" />
+                <action id="-3" name="Set position" sid="3800100361619857" type="ConvoPt13">
+                    <param id="0" name="X">470</param>
+                    <param id="1" name="Y">230</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="735740114752247">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9051816868443559" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6552280786916374" type="ConvoPt13" />
+            </actions>
+        </event-block>
+        <event-block sid="9146105545153429">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2546174581256789" type="System">
+                    <param id="0" name="Variable">Conversations</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">13</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8470849781005444" type="System">
+                    <param id="0" name="Layout">Story 2</param>
                 </action>
                 <action id="6" name="Stop" sid="4060092590736557" type="Audio">
                     <param id="0" name="Tag">&quot;Mary&quot;</param>

@@ -4,8 +4,8 @@
     <sid>5971248740101058</sid>
     <event-sheet>Story 2 ES</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>854</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>398</x>
-                        <y>341</y>
+                        <x>404</x>
+                        <y>256</y>
                         <z>0</z>
-                        <width>966.766357422</width>
-                        <height>690.547424316</height>
+                        <width>910.592834473</width>
+                        <height>650.423461914</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -80,8 +80,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>713.356811523</x>
-                        <y>605.417236328</y>
+                        <x>186</x>
+                        <y>452</y>
                         <z>0</z>
                         <width>383</width>
                         <height>172.661865234</height>
@@ -115,7 +115,7 @@
                     <properties>
                         <text>A couple days later after Kevins funeral, you were givin the keys to Kevins home to throw out anything that didnt have any value to you.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,700,0</font>
+                        <font>Arial,-19,700,0</font>
                         <color>0,0,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -126,11 +126,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>895</x>
-                        <y>279</y>
+                        <x>8</x>
+                        <y>352</y>
                         <z>0</z>
-                        <width>367</width>
-                        <height>116</height>
+                        <width>345</width>
+                        <height>104</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -153,8 +153,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>909</x>
-                        <y>16</y>
+                        <x>29</x>
+                        <y>655</y>
                         <z>0</z>
                         <width>308</width>
                         <height>149</height>

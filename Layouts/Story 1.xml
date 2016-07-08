@@ -4,8 +4,8 @@
     <sid>8219984759309733</sid>
     <event-sheet>Story1 ES</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>854</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>382</x>
-                        <y>353</y>
+                        <x>380</x>
+                        <y>215</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>768</height>
+                        <width>982</width>
+                        <height>736</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -80,11 +80,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>339</x>
-                        <y>342</y>
+                        <x>228.512329102</x>
+                        <y>274.162536621</y>
                         <z>0</z>
-                        <width>254</width>
-                        <height>156</height>
+                        <width>222.05531311</width>
+                        <height>136.380432129</height>
                         <depth>0</depth>
                         <hotspotX>0.57874018</hotspotX>
                         <hotspotY>0.68589741</hotspotY>
@@ -126,8 +126,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>493</x>
-                        <y>300</y>
+                        <x>470</x>
+                        <y>230</y>
                         <z>0</z>
                         <width>280</width>
                         <height>57</height>
@@ -477,8 +477,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>273</x>
-                        <y>596</y>
+                        <x>261</x>
+                        <y>447</y>
                         <z>0</z>
                         <width>356</width>
                         <height>24</height>

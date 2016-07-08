@@ -94,7 +94,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-35</x>
-                        <y>945</y>
+                        <y>840</y>
                         <z>0</z>
                         <width>742.462097168</width>
                         <height>783.710021973</height>
@@ -7867,7 +7867,11 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+<<<<<<< HEAD
                 <instance type="Ground" uid="743">
+=======
+                <instance type="Ground" uid="491">
+>>>>>>> 650571fc3b88295134cc4f453fcf41cf879c2f57
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

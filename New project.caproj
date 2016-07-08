@@ -50,7 +50,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -892,11 +892,6 @@
         </object-type>
         <object-type name="AirPlane" sid="3315152512220398">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Bullet" sid="6957770159982237">
-                    <behavior id="Bullet" />
-                </behavior-type>
-            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5518948185510229" speed="5">
                     <frame duration="1" hotspotX="0.643863" hotspotY="1.53698" original-source="D:\Legend\Legend\Plane.png">
@@ -1040,9 +1035,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="0">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneMid.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneCenter.png" />
                 </animation>
             </animation-folder>
         </object-type>
