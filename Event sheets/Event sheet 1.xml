@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="2976929639020912">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="7882557743458977" type="Mouse">
+                    <param id="0" name="Object">EndingArrow</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="9002281534894474" type="EndingArrow">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9447652561963458">
+            <conditions>
+                <condition id="-22" name="Else" sid="3546286738697236" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="2860437250575486" type="EndingArrow">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4904288771301345">
+            <conditions>
+                <condition id="0" name="On click" sid="3709359465131034" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7906916194910449" type="System">
+                    <param id="0" name="Layout">Credits</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -4,11 +4,23 @@
     <name>Story 2 ES</name>
     <events>
         <variable constant="0" name="Story2" sid="5569765553155865" static="0" type="number">0</variable>
+        <event-block sid="4693884285335389">
+            <conditions>
+                <condition id="1" name="On any click" sid="948080007761126" type="Mouse" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7348996289602022" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="4859933922685735">
             <conditions>
-                <condition id="0" name="On click" sid="6488706045001009" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
+                <condition id="-14" name="Compare variable" sid="6488706045001009" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
@@ -24,11 +36,113 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="9962745591545969">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8107591577481025" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1569140142778296" type="S2T2" />
+                <action id="-3" name="Set position" sid="4537914709346656" type="S2T3">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8675387868242004">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="6381893237810321" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1345683201860175" type="S2T3" />
+                <action id="-3" name="Set position" sid="8380719635542797" type="S2T4">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4694488709782353">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2626414755046728" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7492073593420223" type="S2T4" />
+                <action id="-3" name="Set position" sid="3795801295395779" type="S2T5">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4796907093344304">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5914713503634099" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6267948275710578" type="S2T5" />
+                <action id="-3" name="Set position" sid="464546919578647" type="S2T6">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9730761406150357">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8946800989155327" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8787994843467175" type="S2T6" />
+                <action id="-3" name="Set position" sid="4716909134344254" type="S2T7">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+                <action id="-3" name="Set position" sid="2840294702110017" type="S2T8">
+                    <param id="0" name="X">296</param>
+                    <param id="1" name="Y">452</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7320133854747641">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7349830959662253" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="2863386689374789" type="S2T8" />
+                <action id="-3" name="Set position" sid="7244335852911585" type="S2T9">
+                    <param id="0" name="X">17</param>
+                    <param id="1" name="Y">333</param>
+                </action>
+                <action id="-9" name="Destroy" sid="2998911341360059" type="S2T7" />
+            </actions>
+        </event-block>
         <event-block sid="8114709667285338">
             <conditions>
-                <condition id="0" name="On click" sid="8901300312800434" type="Mouse">
-                    <param id="0" name="Mouse button">0</param>
-                    <param id="1" name="Click type">0</param>
+                <condition id="-14" name="Compare variable" sid="8901300312800434" type="System">
+                    <param id="0" name="Variable">Story2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">8</param>
                 </condition>
             </conditions>
             <actions>

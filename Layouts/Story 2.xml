@@ -4,8 +4,8 @@
     <sid>5971248740101058</sid>
     <event-sheet>Story 2 ES</event-sheet>
     <size>
-        <width>1708</width>
-        <height>960</height>
+        <width>854</width>
+        <height>480</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -154,7 +154,7 @@
             <instances>
                 <instance type="S2T1" uid="1101">
                     <properties>
-                        <text>A couple days later after Kevins funeral, you were givin the keys to Kevins home to throw out anything that didnt have any value to you.</text>
+                        <text>A couple days later after Kevins funeral, you were given the keys to Kevins home to throw out anything that didn&apos;t have any value to you.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-19,700,0</font>
                         <color>0,0,0</color>
@@ -167,8 +167,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8</x>
-                        <y>352</y>
+                        <x>23</x>
+                        <y>347</y>
                         <z>0</z>
                         <width>345</width>
                         <height>104</height>
@@ -181,7 +181,7 @@
                 </instance>
                 <instance type="S2T2" uid="1103">
                     <properties>
-                        <text>While going through on of Kevins rooms, you stumbled upon an old trunk, inside was worn out book with a note. The note is adressed to you.</text>
+                        <text>While going through one of Kevins rooms, you stumbled upon an old trunk, inside was worn out book with a note. The note is adressed to you.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
                         <color>0,0,0</color>
@@ -199,6 +199,195 @@
                         <z>0</z>
                         <width>308</width>
                         <height>149</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T3" uid="571">
+                    <properties>
+                        <text>The note says: Gui, if you are reading this, it means I have died, and I ask you do to one more thing for me as my last wish.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>363</x>
+                        <y>631</y>
+                        <z>0</z>
+                        <width>322</width>
+                        <height>148</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T5" uid="573">
+                    <properties>
+                        <text>*You take a moment to remeber what he did*</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>0,102,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1038</x>
+                        <y>630</y>
+                        <z>0</z>
+                        <width>237</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T6" uid="574">
+                    <properties>
+                        <text>...crap...well im trapped</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>0,102,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1036</x>
+                        <y>705</y>
+                        <z>0</z>
+                        <width>244</width>
+                        <height>39</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T7" uid="575">
+                    <properties>
+                        <text>Once you&apos;ve retrieved the stone bring it to my tombstone. Thank you for being the best friend I could ask for, Good luck.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>648</x>
+                        <y>777</y>
+                        <z>0</z>
+                        <width>296</width>
+                        <height>147</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T8" uid="576">
+                    <properties>
+                        <text>-Kevin</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1045</x>
+                        <y>840</y>
+                        <z>0</z>
+                        <width>49</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T9" uid="577">
+                    <properties>
+                        <text>I&apos;m doing this for 8th Grade!!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>0,102,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1398</x>
+                        <y>816</y>
+                        <z>0</z>
+                        <width>197</width>
+                        <height>69</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="S2T4" uid="572">
+                    <properties>
+                        <text>This will not be a simple task, I ask you to get a special stone from Egypt. Remember you owe me after the 8th grade.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-21,700,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>713</x>
+                        <y>628</y>
+                        <z>0</z>
+                        <width>297</width>
+                        <height>151</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
