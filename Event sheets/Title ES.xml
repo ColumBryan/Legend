@@ -75,5 +75,16 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="1658305201486506">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7065848896007682" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="522910884166196" type="System">
+                    <param id="0" name="Width">870</param>
+                    <param id="1" name="Height">630</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

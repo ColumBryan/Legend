@@ -9168,8 +9168,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3010</x>
-                        <y>35</y>
+                        <x>3045</x>
+                        <y>-105</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -14447,8 +14447,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5705</x>
-                        <y>665</y>
+                        <x>70</x>
+                        <y>735</y>
                         <z>0</z>
                         <width>161.658065796</width>
                         <height>121.243553162</height>
@@ -14610,8 +14610,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3010</x>
-                        <y>-455</y>
+                        <x>3045</x>
+                        <y>-595</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -14632,7 +14632,7 @@
                     <behavior-instances>
                         <behavior-instance type="Bullet">
                             <properties>
-                                <speed>1000</speed>
+                                <speed>1500</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>0</gravity>
                                 <bounce-off-solids>No</bounce-off-solids>
@@ -14649,8 +14649,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3080</x>
-                        <y>-70</y>
+                        <x>3115</x>
+                        <y>-210</y>
                         <z>0</z>
                         <width>1119.45300293</width>
                         <height>1119.45300293</height>
@@ -14721,7 +14721,7 @@
             <instances>
                 <instance type="Text" uid="1545">
                     <properties>
-                        <text>Next Level --&gt;</text>
+                        <text>Level 3 --&gt;</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-32,400,0</font>
                         <color>0,0,0</color>

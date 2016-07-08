@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>New project</name>
     <description></description>
@@ -33,8 +33,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>870</width>
-        <height>630</height>
+        <width>854</width>
+        <height>480</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -867,7 +867,13 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4667253009909915" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1029,28 +1035,20 @@
         <object-type name="ConvoPt2" sid="8238719782917277">
             <plugin id="Text" />
         </object-type>
-        <object-type name="AirportFloor" sid="2719440693026866">
+        <object-type name="Airportloor2" sid="515909458663335">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="8730161709324753">
+                <behavior-type name="Solid" sid="9558880576075114">
                     <behavior id="solid" />
                 </behavior-type>
             </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="89862177640352" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Building pack\houseBeige.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite4" sid="515909458663335">
-            <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3499732895935856" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\castleCenter.png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5" sid="8901995851143346">
+        <object-type name="PlaneDoor" sid="8901995851143346">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9934573286657257" speed="5">
@@ -1058,11 +1056,49 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite6" sid="9661666795469355">
+        <object-type name="PlaneDoor2" sid="9661666795469355">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5899508396051901" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\construct 2\Sprites\Platformer pack\Base pack\Tiles\door_openTop.png">
+                        <collision-poly>
+                            <point x="0.428571" y="0.428571" />
+                            <point x="0.571429" y="0.428571" />
+                            <point x="0.828571" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.171429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AirportFloor" sid="5686632920838863">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9997718545699684">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1635360257386576" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\stoneMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NightDoor" sid="156754933065785">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527494403990054" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\door_openMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NightDoor2" sid="3025714631859158">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4613645362782883" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Construct2\Sprites\Platformer pack\Base pack\Tiles\door_openTop.png">
                         <collision-poly>
                             <point x="0.428571" y="0.428571" />
                             <point x="0.571429" y="0.428571" />
@@ -1167,7 +1203,7 @@
     <event-folder>
         <event-sheet>Title ES.xml</event-sheet>
         <event-sheet>Story1 ES.xml</event-sheet>
-        <event-sheet>Story2 ES.xml</event-sheet>
+        <event-sheet>Story 2 ES.xml</event-sheet>
         <event-sheet>Tutorial ES.xml</event-sheet>
         <event-sheet>Level 1 ES.xml</event-sheet>
         <event-sheet>Level 2 ES.xml</event-sheet>

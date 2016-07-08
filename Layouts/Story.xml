@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Story 2</name>
-    <sid>5971248740101058</sid>
-    <event-sheet>Story 2 ES</event-sheet>
+    <name>Story</name>
+    <sid>8219984759309733</sid>
+    <event-sheet>Story1 ES</event-sheet>
     <size>
         <width>1708</width>
         <height>960</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Story2Background" sid="9299532077709977">
+        <layer name="Story1Background" sid="3061473413835421">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Story2Home" uid="1100">
+                <instance type="Story1Table" uid="1829">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -39,11 +39,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>398</x>
-                        <y>341</y>
+                        <x>382</x>
+                        <y>353</y>
                         <z>0</z>
-                        <width>966.766357422</width>
-                        <height>690.547424316</height>
+                        <width>1024</width>
+                        <height>768</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -54,7 +54,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Story2Textbox" sid="537997308818372">
+        <layer name="Story1Phone" sid="840268526873997">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -70,7 +70,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="S2TextBox" uid="1102">
+                <instance type="Story1Phone" uid="1830">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -80,14 +80,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>713.356811523</x>
-                        <y>605.417236328</y>
+                        <x>339</x>
+                        <y>342</y>
                         <z>0</z>
-                        <width>383</width>
-                        <height>172.661865234</height>
+                        <width>254</width>
+                        <height>156</height>
                         <depth>0</depth>
-                        <hotspotX>0.557798147</hotspotX>
-                        <hotspotY>0.728888869</hotspotY>
+                        <hotspotX>0.57874018</hotspotX>
+                        <hotspotY>0.68589741</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -95,7 +95,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Story2 Text" sid="5996589946352759">
+        <layer name="StoryConvo" sid="4543607865600919">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -111,12 +111,12 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="S2T1" uid="1101">
+                <instance type="ConvoPt1" uid="1831">
                     <properties>
-                        <text>A couple days later after Kevins funeral, you were givin the keys to Kevins home to throw out anything that didnt have any value to you.</text>
+                        <text>Answer the phone.</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-29,700,0</font>
+                        <color>102,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -126,11 +126,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>895</x>
-                        <y>279</y>
+                        <x>493</x>
+                        <y>300</y>
                         <z>0</z>
-                        <width>367</width>
-                        <height>116</height>
+                        <width>280</width>
+                        <height>161</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -138,12 +138,12 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="S2T2" uid="1103">
+                <instance type="Convopt2" uid="1833">
                     <properties>
-                        <text>While going through on of Kevins rooms, you stumbled upon an old trunk, inside was worn out book with a note. The note is adressed to you.</text>
+                        <text>Hello, may I speak to </text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-21,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-29,700,0</font>
+                        <color>102,204,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -153,11 +153,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>909</x>
-                        <y>16</y>
+                        <x>1008</x>
+                        <y>363</y>
                         <z>0</z>
-                        <width>308</width>
-                        <height>149</height>
+                        <width>200</width>
+                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
