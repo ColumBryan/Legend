@@ -67,7 +67,7 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="3705651960256116" type="ConvoPt1" />
-                <action id="-3" name="Set position" sid="8427036940306091" type="Convopt2">
+                <action id="-3" name="Set position" sid="8427036940306091" type="ConvoPt2">
                     <param id="0" name="X">493</param>
                     <param id="1" name="Y">300</param>
                 </action>

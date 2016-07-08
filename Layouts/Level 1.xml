@@ -99,7 +99,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>70</x>
+                        <x>105</x>
                         <y>245</y>
                         <z>0</z>
                         <width>161.658065796</width>
@@ -1327,7 +1327,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AirportFloor" uid="1102">
+                <instance type="AirportFloor" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1356,7 +1356,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AirportFloor" uid="1103">
+                <instance type="AirportFloor" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4787,7 +4787,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>875</x>
+                        <x>910</x>
                         <y>700</y>
                         <z>0</z>
                         <width>70</width>

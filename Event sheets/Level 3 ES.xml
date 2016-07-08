@@ -127,7 +127,7 @@
         </event-block>
         <event-block sid="5002501935192072">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="9156131253091148" type="Player">
+                <condition id="0" name="On collision with another object" sid="9156131253091148" type="TrickSpikes">
                     <param id="0" name="Object">Spikes3</param>
                 </condition>
             </conditions>
