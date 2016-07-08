@@ -119,9 +119,12 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="1892320608868735" type="System">
-                    <param id="0" name="Layout">Level 2</param>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="1892320608868735" type="AirPlane">
+                    <param id="0" name="State">1</param>
                 </action>
+                <action id="-9" name="Destroy" sid="6542610055617338" type="Player" />
+                <action id="-9" name="Destroy" sid="3713032335411008" type="PlaneDoor" />
+                <action id="-9" name="Destroy" sid="4789225437565924" type="PlaneDoor2" />
             </actions>
         </event-block>
         <event-block sid="117081568390926">
@@ -132,6 +135,26 @@
                 <action id="-28" name="Set canvas size" sid="3551716446095005" type="System">
                     <param id="0" name="Width">854</param>
                     <param id="1" name="Height">480</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5624957948033759">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="2613536422414173" type="Player">
+                    <param id="0" name="Object">Spikes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="2633038772642996" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="8341102382127666">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="4230468732693693" type="AirPlane" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4818748809022851" type="System">
+                    <param id="0" name="Layout">Level 2</param>
                 </action>
             </actions>
         </event-block>
