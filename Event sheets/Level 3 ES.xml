@@ -113,6 +113,12 @@
                     <param id="0" name="Variable">Death</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Play" sid="3324443265936894" type="Audio">
+                    <param id="0" name="Audio file">Neck Breaking-SoundBible.com-933536431</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="8896776995050056">
@@ -131,6 +137,12 @@
                     <param id="0" name="Variable">Death</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Play" sid="3148794450340052" type="Audio">
+                    <param id="0" name="Audio file">Neck Breaking-SoundBible.com-933536431</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="5002501935192072">
@@ -148,6 +160,12 @@
                 <action id="-10" name="Add to" sid="1070867135394294" type="System">
                     <param id="0" name="Variable">Death</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="5034767470995142" type="Audio">
+                    <param id="0" name="Audio file">Neck Breaking-SoundBible.com-933536431</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -498,15 +516,21 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="-10" name="Add to" sid="1643362648976597" type="System">
+                    <param id="0" name="Variable">Death</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="7301121975299377" type="Audio">
+                    <param id="0" name="Audio file">Neck Breaking-SoundBible.com-933536431</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-9" name="Set value" sid="4580044494605174" type="System">
                     <param id="0" name="Variable">Restarted</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-26" name="Restart layout" sid="5393578295772183" type="System" />
-                <action id="-10" name="Add to" sid="1643362648976597" type="System">
-                    <param id="0" name="Variable">Death</param>
-                    <param id="1" name="Value">1</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="7359854642938429">

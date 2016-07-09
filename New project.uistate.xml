@@ -11,20 +11,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout active="1" order="0">Title</layout>
+        <layout order="2">Story 1</layout>
         <layout order="4">Story 2</layout>
         <layout order="6">Level 1</layout>
-        <layout order="10">Level 3</layout>
-        <layout order="2">Story 1</layout>
         <layout order="8">Level 2</layout>
+        <layout order="10">Level 3</layout>
         <layout order="12">Credits</layout>
         <layout order="14">Ending</layout>
-        <event-sheet order="5">Story 2 ES</event-sheet>
-        <event-sheet order="11">Level 3 ES</event-sheet>
-        <event-sheet order="13">Credits ES</event-sheet>
-        <event-sheet order="3">Story1 ES</event-sheet>
         <event-sheet order="1">Title ES</event-sheet>
+        <event-sheet order="3">Story1 ES</event-sheet>
+        <event-sheet order="5">Story 2 ES</event-sheet>
         <event-sheet order="7">Level 1 ES</event-sheet>
         <event-sheet order="9">Level 2 ES</event-sheet>
+        <event-sheet order="11">Level 3 ES</event-sheet>
+        <event-sheet order="13">Credits ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

@@ -131,11 +131,17 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-26" name="Restart layout" sid="155993429640058" type="System" />
+                <action id="0" name="Play" sid="8976990470452911" type="Audio">
+                    <param id="0" name="Audio file">Neck Breaking-SoundBible.com-933536431</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-10" name="Add to" sid="3857293154968703" type="System">
                     <param id="0" name="Variable">Death</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-26" name="Restart layout" sid="155993429640058" type="System" />
             </actions>
         </event-block>
         <event-block sid="5208157998621158">
