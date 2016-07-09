@@ -115,7 +115,7 @@
                 </instance>
                 <instance type="S2T1" uid="831">
                     <properties>
-                        <text>A couple days later after Kevins funeral, you were givin the keys to Kevins home to throw out anything that didnt have any value to you.</text>
+                        <text>A couple days later after Kevins funeral, you were given the keys to Kevins home to throw out anything that didn&apos;t have any value to you.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-19,700,0</font>
                         <color>0,0,0</color>
@@ -142,7 +142,7 @@
                 </instance>
                 <instance type="S2T2" uid="832">
                     <properties>
-                        <text>While going through on of Kevins rooms, you stumbled upon an old trunk, inside was worn out book with a note. The note is adressed to you.</text>
+                        <text>While going through one of Kevins rooms, you stumbled upon an old trunk, inside was worn out book with a note. The note is adressed to you.</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
                         <color>0,0,0</color>

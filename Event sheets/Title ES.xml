@@ -3,6 +3,17 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Title ES</name>
     <events>
+        <event-block sid="1658305201486506">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7065848896007682" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="522910884166196" type="System">
+                    <param id="0" name="Width">870</param>
+                    <param id="1" name="Height">630</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="6420670085894512">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="204194371894792" type="Mouse">
@@ -75,17 +86,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="1658305201486506">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="7065848896007682" type="System" />
-            </conditions>
-            <actions>
-                <action id="-28" name="Set canvas size" sid="522910884166196" type="System">
-                    <param id="0" name="Width">870</param>
-                    <param id="1" name="Height">630</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="1607390229337802">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="1609191566093818" type="Mouse">
@@ -105,6 +105,20 @@
             <actions>
                 <action id="5" name="Set frame" sid="1973182514485283" type="TitleCredits">
                     <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7701044778983292">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5246814096992426" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">TitleCredits</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5392005356670492" type="System">
+                    <param id="0" name="Layout">Credits</param>
                 </action>
             </actions>
         </event-block>

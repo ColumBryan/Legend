@@ -34,11 +34,12 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>870</width>
-        <height>630</height>
+        <width>840</width>
+        <height>480</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>Ending</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -1215,26 +1216,97 @@
                 </behavior-type>
             </behaviors>
         </object-type>
-        <object-type name="S2T4" sid="670743821517131">
+        <object-type name="EndingBackgroung" sid="5555382578150349">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2889006766992626" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\FinalProject\Legend\end scene.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EndText" sid="1739424777882663">
             <plugin id="Text" />
         </object-type>
-        <object-type name="S2T3" sid="6687278143477302">
+        <object-type name="EndingArrow" sid="7041627880192151">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5859714330606164" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\FinalProject\Legend\Arrow.png">
+                        <collision-poly>
+                            <point x="0.118998" y="0.388309" />
+                            <point x="0.501043" y="0.392484" />
+                            <point x="0.495823" y="0.191284" />
+                            <point x="0.887265" y="0.386743" />
+                            <point x="0.89144" y="0.489561" />
+                            <point x="0.490605" y="0.707724" />
+                            <point x="0.489562" y="0.586638" />
+                            <point x="0.125261" y="0.5762" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\FinalProject\Legend\Arrow Highlight.png">
+                        <collision-poly>
+                            <point x="0.125261" y="0.394572" />
+                            <point x="0.488518" y="0.39405" />
+                            <point x="0.501044" y="0.191023" />
+                            <point x="0.893528" y="0.377871" />
+                            <point x="0.887266" y="0.493737" />
+                            <point x="0.490605" y="0.707724" />
+                            <point x="0.485386" y="0.582463" />
+                            <point x="0.121086" y="0.586639" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CreditsBackground" sid="6792844921659852">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2840858714908797" speed="5">
+                    <frame duration="1" hotspotX="2.14286" hotspotY="5.04348" original-source="D:\FinalProject\Legend\images.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EndBlack" sid="5123556571870816">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8632437303263722" speed="5">
+                    <frame duration="1" hotspotX="2.62069" hotspotY="5.71429" original-source="D:\FinalProject\Legend\images.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="S2T3" sid="9057718521859525">
             <plugin id="Text" />
         </object-type>
-        <object-type name="S2T7" sid="8387938526069428">
+        <object-type name="S2T4" sid="369445841708806">
             <plugin id="Text" />
         </object-type>
-        <object-type name="S2T6" sid="3955333190610954">
+        <object-type name="S2T5" sid="7530717955863256">
             <plugin id="Text" />
         </object-type>
-        <object-type name="S2T8" sid="750281510017727">
+        <object-type name="S2T6" sid="3113621041298706">
             <plugin id="Text" />
         </object-type>
-        <object-type name="S2T5" sid="7497728597613156">
+        <object-type name="S2T7" sid="4858519098206285">
             <plugin id="Text" />
         </object-type>
-        <object-type name="S2T9" sid="2452078075999192">
+        <object-type name="S2T8" sid="1789123603806236">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="S2T9" sid="5700816990660571">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Credits" sid="4148434273600121">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="2499182546283178">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6354296276106394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\FinalProject\Legend\credits.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
@@ -1246,6 +1318,8 @@
         <layout>Level 1.xml</layout>
         <layout>Level 2.xml</layout>
         <layout>Level 3.xml</layout>
+        <layout>Ending.xml</layout>
+        <layout>Credits.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Title ES.xml</event-sheet>
@@ -1255,6 +1329,8 @@
         <event-sheet>Level 1 ES.xml</event-sheet>
         <event-sheet>Level 2 ES.xml</event-sheet>
         <event-sheet>Level 3 ES.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Credits ES.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1084" />
